@@ -23,13 +23,13 @@
 	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,400italic%7CRoboto+Slab:400,700' rel='stylesheet' type='text/css'>
 
 	<!-- Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/bootstrap.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/all.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/jquery.bxslider.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/magnific-popup.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/animate.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/loaders.min.css')}}">
-	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/main.css')}}">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<link rel="stylesheet" type="text/css" href="css/loaders.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 	<!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -52,18 +52,20 @@
         @include('includes.footer')
     </div> <!-- .site-wrapper ends -->
 
+
+
 <!-- SCRIPTS -->
-<script type="text/javascript" src="{{URL::asset('js/jquery-1.12.0.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/bootstrap.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/SmoothScroll.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.bootstrap-autohidingnavbar.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.bxslider.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.countTo.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.mixitup.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.magnific-popup.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/jquery.waypoints.min.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/main.js')}}"></script>
-<script type="text/javascript" src="{{URL::asset('js/all.js')}}"></script>
+<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/SmoothScroll.js"></script>
+<script type="text/javascript" src="js/jquery.bootstrap-autohidingnavbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="js/jquery.countTo.js"></script>
+<script type="text/javascript" src="js/jquery.mixitup.js"></script>
+<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/all.js"></script>
 
 
 </body>
