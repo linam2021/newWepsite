@@ -315,12 +315,12 @@ p {
 .btn-main {
   padding: 15px 36px;
   border-radius: 0;
-  background: #000000;
+  background: #222222;
   border: none;
   color: #ffffff;
 }
 .btn-main:hover {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
 }
 @media (max-width: 767px) {
@@ -414,7 +414,7 @@ p {
 }
 .search-form input:focus {
   box-shadow: none;
-  border-color: #000000;
+  border-color: #222222;
 }
 .search-form button {
   float: right;
@@ -432,7 +432,7 @@ p {
   content: '';
   width: 18px;
   height: 3px;
-  background: #000000;
+  background: #222222;
   display: inline-block;
   position: absolute;
   left: 0;
@@ -471,7 +471,7 @@ p {
   height: auto;
   text-align: left;
   text-transform: uppercase;
-  background: #000000;
+  background: #222222;
   text-indent: 18px;
 }
 .progress-wrapper .progress-marker {
@@ -520,16 +520,16 @@ p {
   margin-bottom: 0;
 }
 .redone-accordion .active .panel-title {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
-  border-color: #000000;
+  border-color: #222222;
 }
 .redone-accordion .active .panel-title a:after {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 .redone-accordion .active .panel-body {
-  border-top-color: #000000;
+  border-top-color: #222222;
 }
 /* NAVIGATION */
 .navigation-block {
@@ -577,7 +577,7 @@ p {
   transition: .3s;
 }
 .paging-style1 li a:hover {
-  border-color: #000000;
+  border-color: #222222;
 }
 .paging-style1 li a.left-arrow,
 .paging-style1 li a.right-arrow {
@@ -590,8 +590,8 @@ p {
   margin-left: 1em;
 }
 .paging-style1 li.active a {
-  color: #000000;
-  border-color: #000000;
+  color: #222222;
+  border-color: #222222;
 }
 /**
  * HELPER STYLES
@@ -610,7 +610,7 @@ p {
   position: fixed;
   width: 100%;
   height: 100%;
-  background: #000000;
+  background: #222222;
   z-index: 10000;
 }
 .pre-loader .loader-inner {
@@ -724,11 +724,11 @@ p {
   text-shadow: none;
 }
 .main-header .navbar-1 .navbar-nav li a:hover {
-  color: #000000;
+  color: #222222;
 }
 .main-header .navbar-1 .navbar-nav li a:focus,
 .main-header .navbar-1 .navbar-nav li a:active {
-  color: #000000;
+  color: #222222;
   background: #ffffff;
 }
 @media (max-width: 1199px) {
@@ -741,12 +741,12 @@ p {
   }
 }
 .main-header .navbar-1 .navbar-nav li.active > a {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
 }
 @media (min-width: 1200px) {
   .main-header .navbar-1 .navbar-nav li.active > a {
-    background: #000000;
+    background: #222222;
     color: #ffffff;
     position: relative;
   }
@@ -755,7 +755,7 @@ p {
     content: '';
     width: calc(100% - 12px);
     height: 12px;
-    background: #000000;
+    background: #222222;
     position: absolute;
     top: -12px;
     left: 0;
@@ -772,14 +772,14 @@ p {
     width: 0;
     height: 0;
     border: 12px solid transparent;
-    border-bottom-color: #000000;
+    border-bottom-color: #222222;
     position: absolute;
     top: -24px;
     right: 0;
   }
   .main-header .navbar-1 .navbar-nav li.active > a b:after {
     border-bottom-color: transparent;
-    border-top-color: #000000;
+    border-top-color: #222222;
     top: auto;
     bottom: -24px;
     right: auto;
@@ -891,7 +891,7 @@ p {
   display: none;
 }
 .main-header .redone-navbar .redone-search .form-control {
-  background-color: #000000;
+  background-color: #222222;
   border-radius: 0px;
   border-width: 0px;
   font-size: 24px;
@@ -944,7 +944,7 @@ p {
 }
 @media screen and (min-width: 768px) {
   .main-header .redone-navbar .redone-search {
-    background-color: #000000;
+    background-color: #222222;
     display: block;
     position: absolute;
     top: 100%;
@@ -1060,7 +1060,7 @@ p {
   margin-right: 0;
 }
 .main-slider .carousel-indicators li.active {
-  background: #000000;
+  background: #222222;
 }
 .main-slider .carousel-content {
   text-align: center;
@@ -1099,7 +1099,7 @@ p {
   content: '';
   width: 98%;
   height: 5px;
-  background: #000000;
+  background: #222222;
   margin: 12px auto 0;
   display: block;
 }
@@ -1211,7 +1211,7 @@ p {
   letter-spacing: 3px;
 }
 .image-bg .hero-content h2 span {
-  color: #000000;
+  color: #222222;
 }
 /* Gradient Bg */
 .gradient-bg {
@@ -1312,7 +1312,7 @@ p {
   overflow: hidden;
 }
 .parallax-bg .hero-bg {
-  background: #000000;
+  background: #222222;
 }
 .parallax-bg .hero-content {
   position: absolute;
@@ -1356,7 +1356,7 @@ p {
   margin-right: 24px;
   float: left;
   font-size: 30px;
-  color: #000000;
+  color: #222222;
   padding-bottom: 12px;
   border-bottom: 3px solid #222222;
 }
@@ -1424,7 +1424,7 @@ p {
   border-right: none;
 }
 .about-us .section-content .nav-tabs li.active a {
-  color: #000000;
+  color: #222222;
 }
 .about-us .section-content .about-img {
   margin: auto;
@@ -1475,7 +1475,7 @@ p {
 }
 .service .section-content .icon-block {
   font-size: 36px;
-  color: #000000;
+  color: #222222;
   margin-bottom: 30px;
 }
 .service .section-content h3 {
@@ -1545,7 +1545,7 @@ p {
   height: 48px;
   line-height: 30px;
   margin-right: 24px;
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   float: left;
   font-size: 18px;
@@ -1597,7 +1597,7 @@ p {
   position: relative;
 }
 .portfolio .portfolio-nav ul li span:hover {
-  color: #000000;
+  color: #222222;
 }
 .portfolio .portfolio-nav ul li span:after {
   content: '';
@@ -1608,7 +1608,7 @@ p {
   margin-top: 12px;
 }
 .portfolio .portfolio-nav ul li.active span:after {
-  background: #000000;
+  background: #222222;
 }
 .portfolio .portfolio-content .portfolio-item {
   position: relative;
@@ -1643,7 +1643,7 @@ p {
           transform: scale(0.85, 0.85);
 }
 .portfolio .portfolio-content .hover-content .content-wrapper {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   position: relative;
   height: calc(100% - 96px);
@@ -1653,7 +1653,7 @@ p {
   content: '';
   width: calc(100% - 48px);
   height: 48px;
-  background: #000000;
+  background: #222222;
   position: absolute;
   top: -48px;
   left: 0;
@@ -1670,14 +1670,14 @@ p {
   width: 0;
   height: 0;
   border: 48px solid transparent;
-  border-bottom-color: #000000;
+  border-bottom-color: #222222;
   position: absolute;
   top: -96px;
   right: 0;
 }
 .portfolio .portfolio-content .hover-content .content-wrapper b:after {
   border-bottom-color: transparent;
-  border-top-color: #000000;
+  border-top-color: #222222;
   top: auto;
   bottom: -96px;
   right: auto;
@@ -1713,7 +1713,7 @@ p {
   margin-right: 0;
 }
 .portfolio .portfolio-content .hover-content .content-wrapper .content-data .link-block a:hover {
-  color: #000000;
+  color: #222222;
 }
 .portfolio .portfolio-content .hover-content .content-wrapper .content-data .content-block {
   margin-top: 24px;
@@ -1764,7 +1764,7 @@ p {
   line-height: 72px;
   text-align: center;
   font-size: 24px;
-  background: #000000;
+  background: #222222;
   color: #ffffff;
 }
 .features .section-content .feature-list .content-block {
@@ -1872,7 +1872,7 @@ p {
   }
 }
 .team-members .section-content .hover-content {
-  background: #000000;
+  background: #222222;
   position: relative;
   padding-left: 24px;
   padding-right: 24px;
@@ -1890,7 +1890,7 @@ p {
   content: '';
   width: calc(100% - 24px);
   height: 24px;
-  background: #000000;
+  background: #222222;
   position: absolute;
   top: -24px;
   right: 0;
@@ -1907,14 +1907,14 @@ p {
   width: 0;
   height: 0;
   border: 24px solid transparent;
-  border-bottom-color: #000000;
+  border-bottom-color: #222222;
   position: absolute;
   top: -48px;
   left: 0;
 }
 .team-members .section-content .hover-content b:after {
   border-bottom-color: transparent;
-  border-top-color: #000000;
+  border-top-color: #222222;
   top: auto;
   bottom: -48px;
   left: auto;
@@ -1934,10 +1934,10 @@ p {
   display: inline-block;
 }
 .team-members .section-content .hover-content .social-icons a:hover {
-  color: #000000;
+  color: #222222;
 }
 .team-members .section-content .member-info {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   position: relative;
 }
@@ -1946,7 +1946,7 @@ p {
   content: '';
   width: calc(100% - 24px);
   height: 24px;
-  background: #000000;
+  background: #222222;
   position: absolute;
   top: -24px;
   left: 0;
@@ -1963,14 +1963,14 @@ p {
   width: 0;
   height: 0;
   border: 24px solid transparent;
-  border-bottom-color: #000000;
+  border-bottom-color: #222222;
   position: absolute;
   top: -48px;
   right: 0;
 }
 .team-members .section-content .member-info b:after {
   border-bottom-color: transparent;
-  border-top-color: #000000;
+  border-top-color: #222222;
   top: auto;
   bottom: -48px;
   right: auto;
@@ -2043,7 +2043,7 @@ p {
   height: 48px;
   line-height: 30px;
   margin-right: 24px;
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   float: left;
   font-size: 18px;
@@ -2104,7 +2104,7 @@ p {
   top: -36px;
   left: 0;
   font-size: 72px;
-  color: #000000;
+  color: #222222;
 }
 @media (max-width: 767px) {
   .testimonial blockquote:before {
@@ -2157,7 +2157,7 @@ p {
   transition: .3s;
 }
 .testimonial .bx-pager-link.active {
-  background: #000000 !important;
+  background: #222222 !important;
 }
 .testimonial .bx-pager-link:hover {
   background: #999999 !important;
@@ -2207,7 +2207,7 @@ p {
   position: absolute;
   bottom: -21px;
   left: -12px;
-  background: #000000;
+  background: #222222;
 }
 @media (max-width: 991px) {
   .fun-facts .content-wrapper h3:after {
@@ -2399,7 +2399,7 @@ p {
   margin-top: 0;
   letter-spacing: 3px;
   font-weight: 900;
-  color: #000000;
+  color: #222222;
   text-transform: uppercase;
   margin-bottom: 48px;
 }
@@ -2428,7 +2428,7 @@ p {
   height: 48px;
   width: 170px;
   text-align: center;
-  background: #000000;
+  background: #222222;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -2452,7 +2452,7 @@ p {
  * OUR CLIENTS
  */
 .our-clients {
-  background: #000000;
+  background: #222222;
   padding-top: 72px;
 }
 .our-clients .section-content {
@@ -2510,7 +2510,7 @@ p {
   display: block;
 }
 .main-footer .list-with-icon li:hover i {
-  color: #000000;
+  color: #222222;
 }
 .main-footer .widget-area .widget-title {
   color: #f7f7f7;
@@ -2668,7 +2668,7 @@ p {
   content: '';
   width: 18px;
   height: 3px;
-  background: #000000;
+  background: #222222;
   display: inline-block;
   margin-left: -36px;
   margin-right: 18px;
@@ -2743,7 +2743,7 @@ p {
   margin-top: 18px;
 }
 .cta-banner {
-  background: #000000;
+  background: #222222;
   padding-top: 48px;
   padding-bottom: 48px;
 }
@@ -2997,9 +2997,9 @@ p {
   color: #222222;
 }
 .price-table .price-box .package-features button:hover {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
-  border-color: #000000;
+  border-color: #222222;
 }
 /**
  * BLOG POSTS
@@ -3036,7 +3036,7 @@ p {
   color: #222222;
 }
 .post .post-meta li a:hover {
-  color: #000000;
+  color: #222222;
 }
 .post .post-title {
   text-transform: uppercase;
@@ -3087,7 +3087,7 @@ p {
 .post .read-more-link {
   float: left;
   text-transform: uppercase;
-  color: #000000;
+  color: #222222;
   font-weight: bold;
 }
 .post .read-more-link:after {
@@ -3122,7 +3122,7 @@ p {
   font-weight: bold;
 }
 .post-footer .footer-meta li a:hover {
-  color: #000000;
+  color: #222222;
 }
 @media (max-width: 991px) {
   .post-footer .tags-block {
@@ -3237,7 +3237,7 @@ p {
   margin-right: 6px;
 }
 .post-author .author-details .social-links li a:hover {
-  background: #000000;
+  background: #222222;
 }
 .post-author .author-details .social-links li:last-child a {
   margin-right: 0;
@@ -3553,7 +3553,7 @@ p {
 .sidebar h4 a:hover,
 .sidebar h5 a:hover,
 .sidebar h6 a:hover {
-  color: #000000;
+  color: #222222;
 }
 .sidebar .widget-title {
   background: #f7f7f7;
@@ -3598,7 +3598,7 @@ p {
   margin-bottom: 0;
 }
 .sidebar-list a:hover {
-  color: #000000;
+  color: #222222;
 }
 .thumb-list .img-wrapper {
   width: 72px;
@@ -3621,7 +3621,7 @@ p {
   color: #222222;
 }
 .tag-list a:hover {
-  color: #000000;
+  color: #222222;
 }
 /* STYLE FOR SPECIFIC PAGE */
 /**
@@ -3681,7 +3681,7 @@ p {
   color: #222222;
 }
 .portfolio-details .desc-block .share-block .social-share li a:hover {
-  color: #000000;
+  color: #222222;
 }
 .portfolio-details .meta-block .portfolio-meta {
   margin-top: 0;
@@ -3717,13 +3717,13 @@ p {
   height: 4em;
   margin: 0 auto 30px;
   border-radius: 50%;
-  border: 2px solid #000000;
+  border: 2px solid #222222;
   line-height: calc(4em - 2px);
   text-align: center;
   transition: .3s;
 }
 .contact-options .icon-block:hover {
-  background: #000000;
+  background: #222222;
   color: #ffffff;
 }
 .contact-options a {
@@ -3751,7 +3751,7 @@ p {
   top: -42px;
 }
 .form-map .form-message p {
-  color: #000000;
+  color: #222222;
 }
 .form-map .form-message p.success {
   color: green;
