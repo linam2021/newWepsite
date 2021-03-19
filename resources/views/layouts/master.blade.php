@@ -47,7 +47,7 @@
 <body class="home home-animated">
     <div class="site-wrapper">
          <!-- PRELOADER -->
-		<div id="pre-loader" class="pre-loader">
+		<!--<div id="pre-loader" class="pre-loader">
 			<div class="loader-inner square-spin">
 				<div></div>
 			</div>
