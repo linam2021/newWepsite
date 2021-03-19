@@ -2167,7 +2167,7 @@ p {
  * FUN FACTS
  */
 .fun-facts {
-  background: url(/assets/img/thegame3.png) no-repeat center;
+  background: url(/assets/img/thegame3.png)  no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
