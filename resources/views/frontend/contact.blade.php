@@ -1,7 +1,12 @@
 @extends('layouts.master')
 
 @section('content')
-@include('includes.contactheader')
+@if (app()->getlocale()=='en')
+    @include('includes.contactheader')
+@elseif (app()->getlocale()=='ar')
+    @include('includes.arabiccontactheader')
+@endif
+
 <div role="tabpanel" class="tab-pane active" id="contact">
 	<div class="site-wrapper">
 

@@ -1,9 +1,14 @@
 @extends('layouts.master')
 @section('content')
-@include('includes.mainheader')
+
+@if (app()->getlocale()=='en')
+    @include('includes.mainheader')
+@elseif (app()->getlocale()=='ar')
+    @include('includes.arabicmainheader')
+@endif
 		<!-- HERO SECTION  -->
 		<section class="hero-section main-slider" id="hero-section">
-			<div id="redone-carousel" class="carousel slide carousel-fade animated-slider" data-interva="4000">
+			<div id="redone-carousel" class="carousel slide carousel-fade animated-slider" data-interva="8000">
 			    <ol class="carousel-indicators">
 			        <li data-target="#redone-carousel" data-slide-to="0" class="active"></li>
 			        <li data-target="#redone-carousel" data-slide-to="1"></li>
@@ -52,7 +57,7 @@
 			<div class="section-title">
 				<h2>Welcome to The Game <span class="dark">01</span></h2>
 				<p class="lead">
-					Aenean id justo quis felis sodales pretium vitae sit amet erat. Quisque sodales interdum quam, ut aliquam nulla
+					Aenean id juis sodales pretium vitae sit amet erat. Quisque sodales interdum quam, ut aliquam nulla
 				</p>
 			</div> <!-- .section-title ends -->
 

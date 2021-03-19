@@ -37,30 +37,32 @@
                 </button>
 
                 <!-- NAVBAR BRAND -->
-                <a class="navbar-brand" href={{route('index')}}><img src="img/logo.png" alt="The Game logo"></a>
+                <a class="navbar-brand" href={{route('index')}}><img src="{{asset('assets/img/gameLogoBlack.png')}}" alt="The Game logo"></a>
             </div> <!-- .navbar-header ends -->
 
-            <div class="collapse navbar-collapse" id="redone-navbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden-lg">
-                        <form class="navbar-search">
-                            <div class="input-group">
-                                <input class="form-control" type="text" placeholder="Search Here" name="q">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary" type="submit"><i class="fa fa-search"></i></button>
-                                    <button class="btn btn-danger" type="reset"><i class="fa fa-remove"></i></button>
-                                </span> <!-- .input-group-btn ends -->
-                            </div> <!-- .input-group ends -->
-                        </form> <!-- .navbar-search ends -->
-                    </li> <!-- .visible-xs ends -->
-                    <li><a data-scroll href="{{route('index')}}">Home <span class="sr-only">(current)</span> <b></b></a></li>
-                    <li class="active"><a href="{{route('about')}}">About <b></b></a></li>
-                    <li><a href="{{route('service')}}">Service <b></b></a></li>
-                    <li><a href="{{route('contact')}}">Contact <b></b></a></li>
-                    <li class="visible-lg"><a href="#toggle-search" class="animate"><i class="fa fa-search"></i></a></li>
 
+            <div class="collapse navbar-collapse" id="redone-navbar">
+
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="visible-lg"><a class="animate"><i></i></a></li>
+                    <li><a href="{{route('index')}}">Home <b></b></a></li>
+                    <li class="active"><a href="{{route('about')}}">about <span class="sr-only">(current)</span> <b></b></a></li>
+                    <li><a href="{{route('service')}}">Services <b></b></a></li>
+                    <li><a href="{{route('contact')}}">Contact <b></b></a></li>
+                    <li class="visible-lg"><a class="animate"><i></i></a></li>
+                </ul> <!-- .nav navbar-nav ends -->
+
+                <ul class="nav navbar-nav navbar-right">
+                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                            <li>
+                                <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
+                                    {{ $properties['native'] }}
+                                </a>
+                            </li>
+                        @endforeach
                 </ul> <!-- .nav navbar-nav ends -->
             </div> <!-- .collapse navbar-collapse ends -->
+        </ul>
 
         </div> <!-- .container ends -->
 

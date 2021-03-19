@@ -3,7 +3,7 @@
 return [
 
     'page_direction' => 'rtl',
-    'hello' => 'أهلا',
-    'send' => 'ارسل',
+    'w' => 'أهلا',
+    'h' => 'ارسل',
 
 ];

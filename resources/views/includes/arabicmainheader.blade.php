@@ -3,12 +3,7 @@
     <div class="container">
         <h2 class="sr-only">Top Links</h2>
         <div class="row">
-            <div class="col-md-6">
-                <ul class="top-menu">
-                    <li><a href="#"><i class="fas fa-envelope"></i> email@example.com</a></li>
-                    <li><a href="#"><i class="fa fa-phone"></i> + (111) - 123 - 4567</a></li>
-                </ul>
-            </div> <!-- .col-md-6 ends -->
+
 
             <div class="col-md-6 hidden-xs">
                 <ul class="social-links">
@@ -20,6 +15,13 @@
                 </ul>
             </div> <!-- .col-md-6 ends -->
 
+            <div class="col-md-6">
+                <ul class="top-menu">
+                    <li><a href="#"><i class="fas fa-envelope"></i> email@example.com</a></li>
+                    <li><a href="#"><i class="fa fa-phone"></i> + (111) - 123 - 4567</a></li>
+                </ul>
+            </div> <!-- .col-md-6 ends -->
+
         </div> <!-- .row ends -->
     </div><!-- .container ends -->
 </section> <!-- .top-bar ends -->
@@ -28,31 +30,26 @@
 <header class="main-header">
     <nav class="navbar navbar-default redone-navbar navbar-1">
         <div class="container">
-            <div class="navbar-header">
+            <div class="navbar-header navbar-right">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#redone-navbar" aria-expanded="false">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-
                 <!-- NAVBAR BRAND -->
                 <a class="navbar-brand" href={{route('index')}}><img src="{{asset('assets/img/gameLogoBlack.png')}}" alt="The Game logo"></a>
             </div> <!-- .navbar-header ends -->
 
-
             <div class="collapse navbar-collapse" id="redone-navbar">
-
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="visible-lg"><a class="animate"><i></i></a></li>
-                    <li class="active"><a href="{{route('index')}}">Home <span class="sr-only">(current)</span> <b></b></a></li>
-                    <li><a href="{{route('about')}}">About <b></b></a></li>
-                    <li><a href="{{route('service')}}">Services <b></b></a></li>
-                    <li><a href="{{route('contact')}}">Contact <b></b></a></li>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{route('contact')}}">اتصل بنا <b></b></a></li>
+                    <li><a href="{{route('service')}}">خدمات <b></b></a></li>
+                    <li><a href="{{route('about')}}">حول اللعبة <b></b></a></li>
+                    <li class="active"><a href="{{route('index')}}">الصفحة الرئيسية <span class="sr-only">(current)</span> <b></b></a></li>
                     <li class="visible-lg"><a class="animate"><i></i></a></li>
                 </ul> <!-- .nav navbar-nav ends -->
-
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-left">
                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                             <li>
                                 <a rel="alternate" hreflang="{{ $localeCode }}" href="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}">
@@ -62,8 +59,6 @@
                         @endforeach
                 </ul> <!-- .nav navbar-nav ends -->
             </div> <!-- .collapse navbar-collapse ends -->
-        </ul>
-
         </div> <!-- .container ends -->
 
         <div class="redone-search animate">

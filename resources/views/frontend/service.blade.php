@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
 @section('content')
-@include('includes.serviceheader')
-
+@if (app()->getlocale()=='en')
+    @include('includes.serviceheader')
+@elseif (app()->getlocale()=='ar')
+    @include('includes.arabicserviceheader')
+@endif
 		<section class="page-title-banner service-page">
 			<div class="container">
 				<h2>Service</h2>
