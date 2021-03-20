@@ -39,7 +39,7 @@
 					</div> <!-- .col-md-6 content-area ends -->
 
 					<div class="col-md-6 image-area">
-						<img class="img-responsive" src="{{asset('assets/img/TGdesign.jpg')}}" alt="who we are image">
+						<img class="img-responsive" src="{{asset('assets/img/WHO-WE-ARE.jpg')}}" alt="who we are image">
 					</div> <!-- .col-md-6 image-area ends -->
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->
@@ -53,7 +53,7 @@
 
 					<div class="col-md-6 image-area">
 						<div class="image-wrapper">
-							<img class="img-responsive" src="http://placehold.it/598x402" alt="our vision image">
+							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
 							<span class="style-border"></span>
 						</div> <!-- .image-wrapper ends -->
 					</div> <!-- .col-md-6 image-area ends -->
@@ -103,7 +103,7 @@
 					</div> <!-- .col-md-6 content-area ends -->
 
 					<div class="col-md-6 image-area">
-						<img class="img-responsive" src="http://placehold.it/585x493" alt="who we are image">
+						<img class="img-responsive" src="{{asset('assets/img/OUR-HISTORY.jpg')}}" alt="who we are image">
 					</div> <!-- .col-md-6 image-area ends -->
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->

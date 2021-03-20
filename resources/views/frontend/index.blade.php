@@ -16,7 +16,7 @@
 			    <!-- Carousel items -->
 			    <div class="carousel-inner">
 			        <div class="active item">
-			        	<img class="carousel-image" src="{{asset('assets/img/thegame1.jpg')}}" alt="slider image one">
+			        	<img class="carousel-image" src="{{asset('assets/img/Banner.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
 			        		<h1><small data-animation="animated bounceInLeft">The Game</small> <strong data-animation="animated bounceInRight">Lets change the world</strong></h1>
 			        		<p class="lead" data-animation="animated bounceInDown">

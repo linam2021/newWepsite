@@ -136,6 +136,7 @@
 		</section> <!-- .our-skill ends -->
 
 
+
 		<!-- BEST FEATURES -->
 		<section class="best-features area-block">
 			<div class="container">
@@ -217,7 +218,7 @@
 
 					<div class="col-md-6 image-block">
 						<div class="img-wrapper">
-							<img class="img-responsive" src="http://placehold.it/853x505" alt="macbook pro image">
+							<img class="img-responsive" src="{{asset('assets/img/BEST-FEATURES.jpg')}}" alt="macbook pro image">
 						</div>
 					</div> <!-- .col-md-6 ends -->
 				</div> <!-- .row section-content ends -->
