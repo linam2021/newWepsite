@@ -10,17 +10,7 @@
 <div role="tabpanel" class="tab-pane active" id="contact">
 	<div class="site-wrapper">
 
-		<section class="page-title-banner service-page">
-			<div class="container">
-				<h2>Contact</h2>
-				<ul class="breadcrumbs">
-					<li><a href="{{route('index')}}">Home</a></li>
-					<li><a href="{{route('contact')}}">Contact</a></li>
-				</ul> <!-- .breadcrumbs ends -->
-			</div> <!-- .container ends -->
-		</section> <!-- .page-title-banner ends -->
-
-		<section class="contact-options section-block">
+        <section class="contact-options section-block">
 			<div class="container">
 				<h2 class="sr-only">Contact Us</h2>
 				<div class="row section-content text-center">
@@ -55,7 +45,7 @@
 			<div class="container">
 				<h2 class="block-title">Contact Us</h2>
 				<div class="row section-content">
-					<div class="col-md-7 form-block">
+					<div class="col-md-12 form-block">
 
 						<div class="form-message">
 							<p></p>
@@ -63,7 +53,7 @@
 
 						<form class="" id="redone-contact" method="POST" action="php/form-handler.php">
 							<div class="row">
-								<div class="col-md-6">
+								<div class="col-md-4">
 									<div class="form-group">
 										<label class="sr-only" for="name">Name:</label>
 										<input type="text" class="form-control" id="name" name="name" placeholder="Your name">
@@ -73,30 +63,20 @@
 										<label class="sr-only" for="email">Email:</label>
 										<input type="email" class="form-control" id="email" name="email" placeholder="Your email">
 									</div> <!-- .form-group ends -->
+								</div> <!-- .col-md-4 ends -->
 
-									<div class="form-group">
-										<label class="sr-only" for="url">Website:</label>
-										<input type="url" class="form-control" id="url" name="url" placeholder="Your website">
-									</div> <!-- .form-group ends -->
-
-								</div> <!-- .col-md-6 ends -->
-
-								<div class="col-md-6">
+								<div class="col-md-8">
 									<label class="sr-only" for="message">Message:</label>
 									<textarea class="form-control" id="message" name="message" placeholder="Your message here"></textarea>
 
 
 									<button type="submit" class="btn btn-main pull-right" name="submit">Submit</button>
-								</div> <!-- .col-md-6 ends -->
+								</div> <!-- .col-md-8 ends -->
 							</div> <!-- .row ends -->
 						</form> <!-- .redone-contact ends -->
-					</div> <!-- .col-md-6 form-block ends -->
+					</div> <!-- .col-md-12 form-block ends -->
 
-					<div class="col-md-5 map-block">
-						<div class="google-map" id="google-map">
 
-						</div> <!-- .google-map ends -->
-					</div> <!-- .col-md-4 map-block ends -->
 				</div> <!-- .row section-content ends -->
 			</div> <!-- .container ends -->
 		</section> <!-- .form-map section-block ends -->

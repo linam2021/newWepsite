@@ -26,28 +26,8 @@
 
 			        </div> <!-- .item ends -->
 
-			        <div class="item">
-			        	<img class="carousel-image" src="{{asset('assets/img/thegame2.jpg')}}" alt="slider image one">
-			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Visitors will love your website</strong></h1>
-			        		<p class="lead" data-animation="animated fadeInRightBig">
-			        			The beautiful Game is your best &amp; smart choice to make your website awesome to take your buesiness to the next level
-			        		</p>
-			        	</div> <!-- .carousel-content ends -->
-
-			        </div> <!-- .item ends -->
 
 			    </div> <!-- .carousel-inner ends -->
-
-			    <!-- Carousel nav -->
-			    <a class="carousel-control left" href="#redone-carousel" data-slide="prev">
-			    	<span class="fas fa-angle-left" aria-hidden="false"></span>
-    				<span class="sr-only">Previous</span>
-			    </a>
-			    <a class="carousel-control right" href="#redone-carousel" data-slide="next">
-			    	<span class="fas fa-angle-right" aria-hidden="false"></span>
-    				<span class="sr-only">Previous</span>
-			    </a>
 			</div> <!-- #carousel ends -->
 
 		</section> <!-- .hero section main-slider ends -->

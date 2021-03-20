@@ -30,6 +30,7 @@
 	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/jquery.bxslider.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/magnific-popup.css')}}">
 	<link rel="stylesheet" type="text/css" href="{{URL::asset('css/animate.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{URL::asset('css/loaders.min.css')}}">
 
 
 	@if (app()->getlocale()=='en')
@@ -75,6 +76,7 @@
 <script type="text/javascript" src="{{URL::asset('js/jquery.waypoints.min.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/main.js')}}"></script>
 <script type="text/javascript" src="{{URL::asset('js/all.js')}}"></script>
+<script type="text/javascript" src="{{URL::asset('js/bootstrap-progressbar.min.js')}}"></script>
 
 
 </body>

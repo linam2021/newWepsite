@@ -17,6 +17,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     Route::get('/contact', [FrontendController::class,'contact'] )->name('contact');
     Route::get('/about', [FrontendController::class,'about'] )->name('about');
     Route::get('/service', [FrontendController::class,'service'] )->name('service');
+    Route::get('/ser', [FrontendController::class,'ser'] )->name('ser');
 });
 
 
@@ -27,5 +28,3 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
 //Route::get('/about', [FrontendController::class,'about'] )->name('about');
 
 //Route::get('/service', [FrontendController::class,'service'] )->name('service');
-
-

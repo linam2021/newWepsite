@@ -55,7 +55,7 @@
     direction: rtl;
   }
  body {
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
  }
  ul {
    list-style-type: none;
@@ -107,7 +107,7 @@
  h4,
  h5,
  h6 {
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    color: #222222;
  }
  p {
@@ -160,7 +160,7 @@
    margin-bottom: 84px;
  }
  .section-title h2 {
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    font-size: 30px;
    font-weight: 900;
    letter-spacing: 0px;
@@ -182,7 +182,7 @@
  }
  .section-title h2 span {
    font-size: 104px;
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    position: absolute;
    top: 50%;
    right: 50%;
@@ -261,7 +261,7 @@
    position: absolute;
    right: 0;
    bottom: -17px;
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    font-weight: 900;
    z-index: -1;
  }
@@ -307,7 +307,7 @@
  }
  .lead {
    font-size: 18px;
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
  }
  .btn {
    border-radius: 0;
@@ -511,7 +511,7 @@
  }
  .redone-accordion .panel-title a:after {
    content: '\f078';
-   font-family: FontAwesome;
+   font-family: 'gilroybold';
    float: left;
    transition: .3s;
  }
@@ -544,7 +544,7 @@
    color: #222222;
    text-transform: uppercase;
    font-weight: bold;
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    font-size: 14px;
  }
  @media (max-width: 767px) {
@@ -1088,7 +1088,7 @@
 .main-slider .carousel-content h1 small {
   color: #ffffff;
   display: inline-block;
-  font-family: 'Source Sans Pro', serif;
+  font-family: 'gilroybold';
   font-weight: 900;
   font-size: 30px;
   letter-spacing: 0px;
@@ -1301,7 +1301,7 @@
    text-transform: uppercase;
    font-weight: 900;
    font-size: 72px;
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
  }
  @media (min-width: 767px) and (max-width: 991px) {
    .gradient-bg .hero-content .content-block .content-wrapper h2 span {
@@ -1410,7 +1410,7 @@
  }
  .about-us .section-content .nav-tabs li a {
    text-align: center;
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    text-transform: uppercase;
    font-weight: bold;
    background: transparent;
@@ -1737,7 +1737,7 @@
    color: #ffffff;
  }
  .portfolio .portfolio-content .hover-content .content-wrapper .content-data .content-block h5 {
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    color: #ffffff;
    text-transform: uppercase;
    letter-spacing: 0px;
@@ -1989,7 +1989,7 @@
    margin-bottom: 12px;
  }
  .team-members .section-content .member-info h5 {
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    letter-spacing: 0px;
    text-transform: uppercase;
    color: #ffffff;
@@ -2102,7 +2102,7 @@
  }
  .testimonial blockquote:before {
    content: "\f10d";
-   font-family: FontAwesome;
+   font-family: 'gilroybold';
    position: absolute;
    top: -36px;
    right: 0;
@@ -2169,7 +2169,6 @@
   * FUN FACTS
   */
  .fun-facts {
-   background: url(/assets/img/thegame3.png) no-repeat center;
    background-size: cover;
    position: relative;
    z-index: 1;
@@ -2222,7 +2221,7 @@
  .fun-facts .content-wrapper p {
    color: #ffffff;
    text-transform: uppercase;
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    font-weight: bold;
    margin-bottom: 0;
    letter-spacing: 0px;
@@ -2964,7 +2963,7 @@
  .price-table .price-box .price-tag h4 {
    font-size: 36px;
    font-weight: 900;
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    margin-top: 0;
    margin-bottom: 6px;
  }
@@ -3075,7 +3074,7 @@
  .post blockquote:before {
    content: '\f10d';
    position: absolute;
-   font-family: FontAwesome;
+   font-family: 'gilroybold';
    top: 0;
    right: 12px;
    color: #ffffff;
@@ -3190,7 +3189,7 @@
  .post-author .author-details h5 {
    text-transform: uppercase;
    font-weight: normal;
-   font-family: 'Source Sans Pro', serif;
+   font-family: 'gilroybold';
    letter-spacing: 0px;
    font-size: 13px;
  }
@@ -3354,7 +3353,7 @@
  .comment .comment-content-header .comment-reply-link {
    color: #222222;
    text-transform: capitalize;
-   font-family: 'Roboto Slab', sans-serif;
+   font-family: 'gilroybold';
    font-weight: bold;
  }
  .comment-respond {

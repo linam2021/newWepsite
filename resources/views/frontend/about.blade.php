@@ -5,15 +5,7 @@
 @elseif (app()->getlocale()=='ar')
     @include('includes.arabicaboutheader')
 @endif
-		<section class="page-title-banner about-page">
-			<div class="container">
-				<h2>About</h2>
-				<ul class="breadcrumbs">
-					<li><a href="{{route('index')}}">Home</a></li>
-					<li><a href="{{route('about')}}">About</a></li>
-				</ul> <!-- .breadcrumbs ends -->
-			</div> <!-- .container ends -->
-		</section> <!-- .page-title-banner ends -->
+
 
 		<!-- WHO WE ARE -->
 		<section class="who-we-are area-block">
@@ -52,10 +44,7 @@
 				<div class="row section-content">
 
 					<div class="col-md-6 image-area">
-						<div class="image-wrapper">
 							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
-							<span class="style-border"></span>
-						</div> <!-- .image-wrapper ends -->
 					</div> <!-- .col-md-6 image-area ends -->
 
 					<div class="col-md-6 content-area">

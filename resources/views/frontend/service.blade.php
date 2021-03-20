@@ -6,16 +6,6 @@
 @elseif (app()->getlocale()=='ar')
     @include('includes.arabicserviceheader')
 @endif
-		<section class="page-title-banner service-page">
-			<div class="container">
-				<h2>Service</h2>
-				<ul class="breadcrumbs">
-					<li><a href="{{route('index')}}">Home</a></li>
-					<li><a href="{{route('service')}}">Service</a></li>
-				</ul> <!-- .breadcrumbs ends -->
-			</div> <!-- .container ends -->
-		</section> <!-- .page-title-banner ends -->
-
 		<!-- SERVICE  -->
 		<section class="service section-block">
 			<div class="section-title">
@@ -82,7 +72,14 @@
 		<section class="our-skill area-block">
 			<div class="container">
 				<div class="row section-content">
-					<div class="col-md-6 col-md-offset-6">
+
+                    <div class="col-md-6 image-block">
+						<div class="img-wrapper">
+							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="macbook pro image">
+						</div>
+					</div> <!-- .col-md-6 ends -->
+
+					<div class="col-md-6">
 						<h3 class="area-title">Our Skills <span class="light">02</span></h3>
 						<p class="summery">
 							Monie et dolore magna aliqua. Ut enim ad minim veniam,
@@ -131,6 +128,7 @@
 						</div> <!-- .progress-wrapper ends -->
 
 					</div> <!-- .col-md-6 ends -->
+
 				</div> <!-- .row ends -->
 			</div><!-- .container ends -->
 		</section> <!-- .our-skill ends -->
@@ -218,7 +216,7 @@
 
 					<div class="col-md-6 image-block">
 						<div class="img-wrapper">
-							<img class="img-responsive" src="{{asset('assets/img/BEST-FEATURES.jpg')}}" alt="macbook pro image">
+							<img class="img-responsive" src="{{asset('assets/img/WHO-WE-ARE.jpg')}}" alt="macbook pro image">
 						</div>
 					</div> <!-- .col-md-6 ends -->
 				</div> <!-- .row section-content ends -->
