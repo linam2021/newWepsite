@@ -9,10 +9,6 @@
 		<!-- HERO SECTION  -->
 		<section class="hero-section main-slider" id="hero-section">
 			<div id="redone-carousel" class="carousel slide carousel-fade animated-slider" data-interva="8000">
-			    <ol class="carousel-indicators">
-			        <li data-target="#redone-carousel" data-slide-to="0" class="active"></li>
-			        <li data-target="#redone-carousel" data-slide-to="1"></li>
-			    </ol>
 			    <!-- Carousel items -->
 			    <div class="carousel-inner">
 			        <div class="active item">
