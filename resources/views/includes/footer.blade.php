@@ -26,33 +26,15 @@
             <!-- SOCIAL LINKS -->
             <div class="col-lg-2 col-md-3 col-sm-4 widget-area social-links">
                 <h4 class="widget-title">Social Links</h4>
-
-                <ul class="list-with-icon">
-                    <li>
-                        <i class="fab fa-facebook"></i>
-                        <p><a href="https://www.facebook.com/Thegame.delavida">Facebook</a></p>
-                    </li>
-                    <li>
-                        <i class="fab fa-instagram"></i>
-                        <p><a href="https://www.instagram.com/thegame.delavida/">Instagram</a></p>
-                    </li>
-
-                    <li>
-                        <i class="fab fa-youtube"></i>
-                        <p><a href="https://www.youtube.com/c/allo3bah/featured">Youtube</a></p>
-                    </li>
-                    <ul class="list-with-icon">
-                        <li>
-                            <i class="fab fa-telegram"></i>
-                            <p><a href="http://t.me/TGserver1">Telegram</a></p>
-                        </li>
-                        <li>
-                            <i class="fab fa-linkedin"></i>
-                            <p><a href="#">Linkedin</a></p>
-                        </li>
-
-                </ul> <!-- .list-with-icon ends -->
-
+                <div class="col-md-6 hidden-xs">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/Thegame.delavida"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/thegame.delavida/"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.youtube.com/c/allo3bah/featured"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="http://t.me/TGserver1"><i class="fab fa-telegram"></i></a></li>
+                        <li><a href="https://de.linkedin.com/company/the-game-delavida"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div> <!-- .col-md-6 ends -->
             </div> <!-- .col-md-3 col-sm-6 ends -->
 
         </div> <!-- .row section-content ends -->
