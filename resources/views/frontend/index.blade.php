@@ -7,8 +7,12 @@
     @include('includes.arabicmainheader')
 @endif
 		<!-- HERO SECTION  -->
-		<section class="hero-section main-slider" id="hero-section">
+        <section class="hero-section main-slider" id="hero-section">
 			<div id="redone-carousel" class="carousel slide carousel-fade animated-slider" data-interva="8000">
+			    <ol class="carousel-indicators">
+			        <li data-target="#redone-carousel" data-slide-to="0" class="active"></li>
+			        <li data-target="#redone-carousel" data-slide-to="1"></li>
+			    </ol>
 			    <!-- Carousel items -->
 			    <div class="carousel-inner">
 			        <div class="active item">
@@ -22,8 +26,28 @@
 
 			        </div> <!-- .item ends -->
 
+			        <div class="item">
+			        	<img class="carousel-image" src="{{asset('assets/img/thegame2.jpg')}}" alt="slider image one">
+			        	<div class="carousel-content">
+			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Visitors will love your website</strong></h1>
+			        		<p class="lead" data-animation="animated fadeInRightBig">
+			        			The beautiful Game is your best &amp; smart choice to make your website awesome to take your buesiness to the next level
+			        		</p>
+			        	</div> <!-- .carousel-content ends -->
+
+			        </div> <!-- .item ends -->
 
 			    </div> <!-- .carousel-inner ends -->
+
+			    <!-- Carousel nav -->
+			    <a class="carousel-control left" href="#redone-carousel" data-slide="prev">
+			    	<span class="fas fa-angle-left" aria-hidden="false"></span>
+    				<span class="sr-only">Previous</span>
+			    </a>
+			    <a class="carousel-control right" href="#redone-carousel" data-slide="next">
+			    	<span class="fas fa-angle-right" aria-hidden="false"></span>
+    				<span class="sr-only">Previous</span>
+			    </a>
 			</div> <!-- #carousel ends -->
 
 		</section> <!-- .hero section main-slider ends -->
@@ -126,7 +150,7 @@
 					</div> <!-- .col-md-6 content-area ends -->
 
 					<div class="col-md-6 image-area">
-							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="our vision image">
+							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="How we work image">
 					</div> <!-- .col-md-6 image-area ends -->
 
 				</div> <!-- .row section-content ends -->
