@@ -80,7 +80,7 @@
 				<div class="row section-content">
 
 					<div class="col-md-6 content-area">
-						<h3 class="area-title">How We Work <span class="light">07</span></h3>
+						<h3 class="area-title">How We Work <span class="light">02</span></h3>
 						<p>
 							Lenosed upers piciatis unde omnis iste natus error sit voluptatem accusa ntieum  ketumod oloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritat iuase architecto beatae vitae dicta sunt explicabo boseto deisei tomar amar kotha.
 						</p>
@@ -124,7 +124,6 @@
 						</ul> <!-- .process ends -->
 
 					</div> <!-- .col-md-6 content-area ends -->
-
 
 					<div class="col-md-6 image-area">
 							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="our vision image">

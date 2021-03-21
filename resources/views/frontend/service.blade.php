@@ -9,7 +9,7 @@
 		<!-- SERVICE  -->
 		<section class="service section-block">
 			<div class="section-title">
-				<h2>What We Do <span class="dark">03</span></h2>
+				<h2>What We Do <span class="dark">01</span></h2>
 				<p class="lead">
 					Pais tang from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power
 				</p>
@@ -72,15 +72,16 @@
 		<section class="our-skill area-block">
 			<div class="container">
 				<div class="row section-content">
-
-                    <div class="col-md-6 image-block">
+                    @if (app()->getlocale()=='en')
+                        <div class="col-md-6 image-block">
 						<div class="img-wrapper">
-							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="macbook pro image">
+							<img class="img-responsive" src="{{asset('assets/img/OUR-SKILLS.jpg')}}" alt="macbook pro image">
 						</div>
-					</div> <!-- .col-md-6 ends -->
+                        </div> <!-- .col-md-6 ends -->
+                    @endif
 
 					<div class="col-md-6">
-						<h3 class="area-title">Our Skills <span class="light">02</span></h3>
+						<h3 class="area-title">Our Skills <span class="dark">02</span></h3>
 						<p class="summery">
 							Monie et dolore magna aliqua. Ut enim ad minim veniam,
 							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -128,20 +129,31 @@
 						</div> <!-- .progress-wrapper ends -->
 
 					</div> <!-- .col-md-6 ends -->
-
+                    @if (app()->getlocale()=='ar')
+                        <div class="col-md-6 image-block">
+						<div class="img-wrapper">
+							<img class="img-responsive" src="{{asset('assets/img/OUR-SKILLS.jpg')}}" alt="macbook pro image">
+						</div>
+                        </div> <!-- .col-md-6 ends -->
+                    @endif
 				</div> <!-- .row ends -->
 			</div><!-- .container ends -->
 		</section> <!-- .our-skill ends -->
-
 
 
 		<!-- BEST FEATURES -->
 		<section class="best-features area-block">
 			<div class="container">
 				<div class="row section-content">
-					<div class="col-md-6">
+					@if (app()->getlocale()=='ar')
+			     		<div class="col-md-6 image-block">
+				     		<div class="img-wrapper">
+					    		<img class="img-responsive" src="{{asset('assets/img/BEST-FEATURES.jpg')}}" alt="macbook pro image">
+						    </div>
+					    </div> <!-- .col-md-6 ends -->
+                    @endif
+                    <div class="col-md-6">
 						<h3 class="area-title">Best Features <span class="dark">03</span></h3>
-
 
 							<div class="panel-group redone-accordion" id="accordion" role="tablist" aria-multiselectable="true">
 							  <div class="panel panel-default active">
@@ -213,24 +225,30 @@
 
 
 					</div> <!-- .col-md-6 ends -->
-
-					<div class="col-md-6 image-block">
-						<div class="img-wrapper">
-							<img class="img-responsive" src="{{asset('assets/img/WHO-WE-ARE.jpg')}}" alt="macbook pro image">
-						</div>
-					</div> <!-- .col-md-6 ends -->
+                    @if (app()->getlocale()=='en')
+			     		<div class="col-md-6 image-block">
+				     		<div class="img-wrapper">
+					    		<img class="img-responsive" src="{{asset('assets/img/BEST-FEATURES.jpg')}}" alt="macbook pro image">
+						    </div>
+					    </div> <!-- .col-md-6 ends -->
+                    @endif
 				</div> <!-- .row section-content ends -->
 			</div> <!-- .container ends -->
 		</section> <!-- .best-features ends -->
 
-
-
 		<!-- TESTIMONIAL -->
 		<section class="testimonial area-block">
 			<div class="container">
-				<h3 class="area-title">What People Say <span class="dark">08</span></h3>
+				<h3 class="area-title">What People Say <span class="dark">04</span></h3>
 
 				<div class="row">
+                    @if (app()->getlocale()=='ar')
+					    <div class="col-md-3 hidden-xs">
+						    <div class="image-block">
+							    <img class="img-responsive" src="http://placehold.it/253x419" alt="testimonial author">
+						    </div> <!-- .image-block ends -->
+					    </div> <!-- .col-md-2 ends -->
+                    @endif
 					<div class="col-md-7 col-md-offset-2 clearfix">
 						<blockquote>
 							<p>
@@ -242,11 +260,13 @@
 							<p>Abc Corporation</p>
 						</div> <!-- .testimonial-author ends -->
 					</div> <!-- .col-md-10 col-md-offset-2 ends -->
-					<div class="col-md-3 hidden-xs">
-						<div class="image-block">
-							<img class="img-responsive" src="http://placehold.it/253x419" alt="testimonial author">
-						</div> <!-- .image-block ends -->
-					</div> <!-- .col-md-2 ends -->
+                    @if (app()->getlocale()=='en')
+					    <div class="col-md-3 hidden-xs">
+						    <div class="image-block">
+							    <img class="img-responsive" src="http://placehold.it/253x419" alt="testimonial author">
+						    </div> <!-- .image-block ends -->
+					    </div> <!-- .col-md-2 ends -->
+                    @endif
 				</div> <!-- .row ends -->
 			</div> <!-- .container ends -->
 		</section><!-- .testimonial ends -->

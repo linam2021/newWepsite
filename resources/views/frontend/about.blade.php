@@ -42,11 +42,11 @@
 
 			<div class="container">
 				<div class="row section-content">
-
-					<div class="col-md-6 image-area">
-							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
-					</div> <!-- .col-md-6 image-area ends -->
-
+                    @if (app()->getlocale()=='en')
+					    <div class="col-md-6 image-area">
+				 			<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
+				    	</div> <!-- .col-md-6 image-area ends -->
+                    @endif
 					<div class="col-md-6 content-area">
 						<h3 class="area-title">Our Vision <span class="light">02</span></h3>
 						<p>
@@ -62,6 +62,12 @@
 
 						</ul>
 					</div> <!-- .col-md-6 content-area ends -->
+                    @if (app()->getlocale()=='ar')
+					    <div class="col-md-6 image-area">
+							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
+					    </div> <!-- .col-md-6 image-area ends -->
+                    @endif
+
 
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->

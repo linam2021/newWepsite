@@ -8,7 +8,7 @@
             <div class="col-md-6 hidden-xs">
                 <ul class="social-links">
                     <li><a href="https://www.facebook.com/Thegame.delavida"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/thegame.delavida/"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/thegame.delavida"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://www.youtube.com/c/allo3bah/featured"><i class="fab fa-youtube"></i></a></li>
                     <li><a href="http://t.me/TGserver1"><i class="fab fa-telegram"></i></a></li>
                     <li><a href="https://de.linkedin.com/company/the-game-delavida"><i class="fab fa-linkedin"></i></a></li>
