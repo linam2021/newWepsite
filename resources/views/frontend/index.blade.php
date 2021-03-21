@@ -122,10 +122,12 @@
 								</div> <!-- .content-block ends -->
 							</li><!-- .clearfix ends -->
 						</ul> <!-- .process ends -->
+
 					</div> <!-- .col-md-6 content-area ends -->
 
-					<div class="col-md-6 image-area">
 
+					<div class="col-md-6 image-area">
+							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="our vision image">
 					</div> <!-- .col-md-6 image-area ends -->
 
 				</div> <!-- .row section-content ends -->
