@@ -27,7 +27,7 @@
 			        </div> <!-- .item ends -->
 
 			        <div class="item">
-			        	<img class="carousel-image" src="{{asset('assets/img/thegame2.jpg')}}" alt="slider image one">
+			        	<img class="carousel-image" src="{{asset('assets/img/thegame.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
 			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Visitors will love your website</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
