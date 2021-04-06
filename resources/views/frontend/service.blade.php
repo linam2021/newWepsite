@@ -9,9 +9,9 @@
 		<!-- SERVICE  -->
 		<section class="service section-block">
 			<div class="section-title">
-				<h2>What We Do <span class="dark">01</span></h2>
+				<h2>{{__('text.What we do')}} <span class="dark">01</span></h2>
 				<p class="lead">
-					Pais tang from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power
+					{{__('text.What we do Text')}}
 				</p>
 			</div> <!-- .section-title ends -->
 
@@ -19,7 +19,7 @@
 				<div class="row section-content">
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fa fa-image"></i></div>
-						<h3>Web Design</h3>
+						<h3>{{__('text.Web development')}}</h3>
 						<p>
 							Seto amar pashe bose ase saradin sararat ar nishidin proti din ase amar pashe ar tobe keno se ajo amar kase elona keno se amar kasthe dure thake bolon.
 						</p>
@@ -27,7 +27,7 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fa fa-cogs"></i></div>
-						<h3>Web Development</h3>
+						<h3>{{__('text.App Development')}}</h3>
 						<p>
 							Ohose keno bosena tomader kotha eta golpo holeo parto pata lukie tobe portam ebng evabei amader sob kisu nai hote chae kivabe seto chole geleo.
 						</p>
@@ -35,7 +35,7 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fab fa-android"></i></div>
-						<h3>Mobile Application</h3>
+						<h3>{{__('text.Game Development')}}</h3>
 						<p>
 							Akashei tiume meghe dhaka shaon dhara jore jedin pas tumi sedin more pore. Ekhoni ami seieoe dinere opekshay bose asise pothe chee tomar pothe.
 						</p>
@@ -43,7 +43,7 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fab fa-shield"></i></div>
-						<h3>Online Security</h3>
+						<h3>{{__('text.Graphic Design')}}</h3>
 						<p>
 							Mnaoare kese hai tu bata more manoorate tomader kase omon bosease dekho na tomader kase jabo to chole kivabe jete hbe bolona bondhu.
 						</p>
@@ -51,7 +51,7 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fa fa-cloud"></i></div>
-						<h3>Cloud Hosting</h3>
+						<h3>{{__('text.Post Production')}}</h3>
 						<p>
 							Takale tumi ami hotath onno deshe chole ase mon hariye bolse asi kivabe to janina make niye tomar majhe kiemn chle je tumi ta bolona ar koto kivabe.
 						</p>
@@ -59,7 +59,7 @@
 
 					<div class="col-md-4 col-sm-6">
 						<div class="icon-block"><i class="fa fa-shopping-cart"></i></div>
-						<h3>Ecommerce</h3>
+						<h3>{{__('text.Marketing')}}</h3>
 						<p>
 							Chupe tomake dekhte jabo sei bikele tomar pashe bose asi ami tumi nei keno amar pashe. Kothay je chile geso evabe amake eka fele ore manoare.
 						</p>

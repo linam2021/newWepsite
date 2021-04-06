@@ -31,7 +31,14 @@ return [
     'Our History Text1'=>'established at the end of 2019, and since we have accomplished until now 7 cycles of our program with an estimation of 50,000 participant that benefit and have a kick start in the life or career',
     'Our History Text2'=>'Accomplishment:',
     'Our History Text3'=>'After a research took our team more than 6 month we have build a curriculum how to reach from 0 to 1 in the financial freedom',
-
+    'What we do'=>'What we do',
+    'What we do Text'=>'We offer an entirely free of charge programs that takes you from 0 knowledge in a particular field to job market in shorter than 6 months.',
+    'Web development'=>'Web Development',
+    'App Development'=>'App Development',
+    'Game Development'=>'Game Development',
+    'Graphic Design'=>'Graphic Design',
+    'Post Production'=>'Post Production',
+    'Marketing'=>'Marketing',
 
 
 ];
