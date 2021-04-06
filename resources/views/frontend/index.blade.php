@@ -29,9 +29,9 @@
 			        <div class="item">
 			        	<img class="carousel-image" src="{{asset('assets/img/thegame.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Visitors will love your website</strong></h1>
+			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Lets change the world</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
-			        			The beautiful Game is your best &amp; smart choice to make your website awesome to take your buesiness to the next level
+			        			The game is your best smart choice to change the world
 			        		</p>
 			        	</div> <!-- .carousel-content ends -->
 
@@ -55,9 +55,11 @@
 		<!-- FEATURED -->
 		<section class="featured section-block">
 			<div class="section-title">
-				<h2>Welcome to The Game <span class="dark">01</span></h2>
+				<h2>{{__('text.welcome')}} <span class="dark">01</span></h2>
 				<p class="lead">
-					Aenean id juis sodales pretium vitae sit amet erat. Quisque sodales interdum quam, ut aliquam nulla
+					{{__('text.welcomeText')}}
+                    <br>
+                    {{__('text.welcomeText2')}}
 				</p>
 			</div> <!-- .section-title ends -->
 
@@ -66,9 +68,9 @@
 					<div class="col-md-4 clearfix">
 						<div class="icon-block"><i class="fa fa-leaf"></i></div>
 						<div class="content-block">
-							<h3>Awesome Design</h3>
+							<h3>{{__('text.LifeStyle')}}</h3>
 							<p>
-								Tomara keu ki dite paro Praesent nec nisl a purus blandit viverra. Pellentesque auctor neque Nullam nulla eros, ultricies sit amet, nonummy.
+								{{__('text.LifeStyleText')}}
 							</p>
 						</div> <!-- .content-block ends -->
 
@@ -77,19 +79,19 @@
 					<div class="col-md-4 clearfix">
 						<div class="icon-block"><i class="fab fa-codepen"></i></div>
 						<div class="content-block">
-							<h3>Standard Coding</h3>
+							<h3>{{__('text.Large Supporting Community')}}</h3>
 							<p>
-								Praesent nec nisl a purus blandit viverra. Pellent esque auctor neque Nullam nulla eros, ultr icies sit amet, nonummy imperdiet feugiat, pede.
+								{{__('text.Large Supporting Community Text')}}
 							</p>
 						</div> <!-- .content-block ends -->
 					</div> <!-- .col-md-4 ends -->
 
 					<div class="col-md-4 clearfix">
-						<div class="icon-block"><i class="fa fa-life-buoy"></i></div>
+						<div class="icon-block"><i class="fa fa-university"></i></div>
 						<div class="content-block">
-							<h3>Super Support</h3>
+							<h3>{{__('text.Learn a Skill')}}</h3>
 							<p>
-								Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Praesent nec nisl a purus blandit viverra. Pellentesque auctor neque.
+								{{__('text.Learn a Skill Text')}}
 							</p>
 						</div> <!-- .content-block ends -->
 
@@ -104,7 +106,7 @@
 				<div class="row section-content">
 
 					<div class="col-md-6 content-area">
-						<h3 class="area-title">How We Work <span class="light">02</span></h3>
+						<h3 class="area-title">{{__('text.How WE WORK')}} <span class="light">02</span></h3>
 						<p>
 							Lenosed upers piciatis unde omnis iste natus error sit voluptatem accusa ntieum  ketumod oloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritat iuase architecto beatae vitae dicta sunt explicabo boseto deisei tomar amar kotha.
 						</p>
@@ -112,36 +114,36 @@
 							<li class="clearfix">
 								<div class="icon-block">1</div>
 								<div class="content-block">
-									<h4>We Discuss</h4>
+									<h4>{{__('text.We self improve')}}</h4>
 									<p>
-										Toke dekhe caise mon rimixo tai hae ono nirob.
+										{{__('text.We self improve Text')}}
 									</p>
 								</div>
 							</li>
 							<li class="clearfix">
 								<div class="icon-block">2</div>
 								<div class="content-block">
-									<h4>We Plan</h4>
+									<h4>{{__('text.We challenge')}}</h4>
 									<p>
-										Bofficia deserunt mateo animi, id est laborum.
+										{{__('text.We challenge Text')}}
 									</p>
 								</div><!-- .content-block ends -->
 							</li> <!-- .clearfix ends -->
 							<li class="clearfix">
 								<div class="icon-block">3</div>
 								<div class="content-block">
-									<h4>We Develop</h4>
+									<h4>{{__('text.We learn')}}</h4>
 									<p>
-										Ekta premer gan likese arete tornam kiole mon.
+										{{__('text.We learn Text')}}
 									</p>
 								</div><!-- .content-block ends -->
 							</li><!-- .clearfix ends -->
 							<li class="clearfix">
 								<div class="icon-block">4</div>
 								<div class="content-block">
-									<h4>We Deliver</h4>
+									<h4>{{__('text.We execute')}}</h4>
 									<p>
-										Din besamal toke dekhe jhor utheshe mon caite.
+										{{__('text.We execute Text')}}
 									</p>
 								</div> <!-- .content-block ends -->
 							</li><!-- .clearfix ends -->

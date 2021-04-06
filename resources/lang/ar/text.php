@@ -1,0 +1,35 @@
+<?php
+
+return [
+    'welcome' => 'مرحبا بك في اللعبة',
+    'welcomeText' => 'لن تحل اللعبة مشاكلك، بل ستعلمك أن تحلها بنفسك',
+    'welcomeText2'=>'"لا تعطيني سمكة، علمني كيف أصطاد"',
+    'LifeStyle'=>'أسلوب حياة',
+    'LifeStyleText' =>'نوفر لك في أكاديميتنا أفضل أسلوب حياة لمساعدتك في الوصول إلى أهدافك والاستمتاع بالقيام بذلك.',
+    'Large Supporting Community'=>'مجتمع داعم كبير',
+    'Large Supporting Community Text'=>'معنا لن تشعر أبداً بالوحدة في رحلتك، مجتمعنا مع الآلاف من المشاركين مثلك، فعال جداً ودائماً على استعداد للمساعدة.',
+    'Learn a Skill'=>'تعلم مهارة',
+    'Learn a Skill Text'=>'ستجد في الأكاديمية طريقاً واضحاً إلى سوق العمل من خلال العديد من المهن، التي نوجهها بعيداً عن المعرفة.',
+    'How WE WORK'=>'كيف نعمل',
+    'We self improve'=>'نطور أنفسنا',
+    'We self improve Text'=>'من خلال منهج مصمم جيداً يلامس واقعك، فنحن نوجهك إلى الخطوة الأولى نحو تغيير حقيقي في نفسك تشعر به منذ الأيام الأولى للبرنامج.',
+    'We challenge'=>'We challenge',
+    'We challenge Text'=>'After you started with your first step to make a change it\'s time to execute throw our 60 days challenge to implement what you have been touted by setting a personal goal to reach in 60 days, with more than 5,000 other participants usually joins the challenge you will find a great environment share the same path you choose ',
+    'We learn'=>'We learn',
+    'We learn Text'=>'Now you are fully prepared in committing to a bigger goal that changes the course of your life by learning a new rare skill in order to start a new career of your choice and elevate your chances in a better future.',
+    'We execute'=>'We execute',
+    'We execute Text'=>'In this stage you will have all the tools to succeed and we will learn you how to use thous tools properly by integrating you in to the job market and help you translate effort to cash, that\'s when our mission is accomplished with your success.',
+
+    'Who we are'=>'Who We are',
+    'Who we are Text'=>'The Game Of Life Academy Founded By Thaer Abu Ghoush by himself and now serving a large community supported by more then 140 volunteers from all around the (MENA) region.',
+    'Our Vision'=>'Our Vision',
+    'Our Vision Text'=>'We Are committed to empowering the (MENA) region youth, particularly women, to defeat gender inequality through Self Improvement and Financial Freedom. According to Arab Barometer, Individuals between the ages of 15 and 29 are around 30 percent of the MENA region population. They have the potential to shape the future of this region. Still, they have to go through tough challenges, mainly due to the economic situation, political corruption, and inequality in opportunities; giving these facts is way more challenging for women in this region than for men.',
+    'Our Vision Text1'=>'Due to gender inequality, These challenges are viewed by women as a huge barrier against defining their own path in life, which causes them to have a fragile self-value to themselves, let alone their communities.',
+    'Our Vision Text2'=>'These critical factors affect most youth of this region, men and women combined, leading them to self-sabotage behaviors, depression, corruption, and drug addiction, which usually leads into a dark and unknown future.',
+    'Our Vision Text3'=>'Our academy helps them to solve the core cause of their problems with an entirely free rehabilitation program that prove its functionality throw the past 2 year of our lunch.',
+    'Our History'=>'Our History',
+    'Our History Text1'=>'established at the end of 2019, and since we have accomplished until now 7 cycles of our program with an estimation of 50,000 participant that benefit and have a kick start in the life or career',
+    'Our History Text2'=>'Accomplishment:',
+    'Our History Text3'=>'After a research took our team more than 6 month we have build a curriculum how to reach from 0 to 1 in the financial freedom',
+
+];

@@ -13,21 +13,13 @@
 			<div class="container">
 				<div class="row area-content">
 					<div class="col-md-6 content-area">
-						<h3 class="area-title">Who we are <span class="dark">01</span></h3>
+						<h3 class="area-title">{{__('text.Who we are')}} <span class="dark">01</span></h3>
 						<p>
-							Bire et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							{{__('text.Who we are Text')}}
 						</p>
 
 						<p>
-							Nicco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+							{{__('text.Who we are Text')}}						</p>
 					</div> <!-- .col-md-6 content-area ends -->
 
 					<div class="col-md-6 image-area">
@@ -48,17 +40,15 @@
 				    	</div> <!-- .col-md-6 image-area ends -->
                     @endif
 					<div class="col-md-6 content-area">
-						<h3 class="area-title">Our Vision <span class="light">02</span></h3>
+						<h3 class="area-title">{{__('text.Our Vision')}} <span class="light">02</span></h3>
 						<p>
-							Rerehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia de diet a, venenatis vitae, ju serunt mollit anim id est laborum.
+							{{__('text.Our Vision Text')}}
 						</p>
 
 						<ul class="lined-list">
-							<li>Donec posuere vulputate arcu. Phasellus gravida semper nisi. Praesent turpis. Etiam rhoncus. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</li>
-							<li>Sed aliquam ultrices mauris. Nullam cursus lacinia erat. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. </li>
-							<li>Nunc egestas, augue at pellentesque laoreet, felis eros vehicula leo, at malesuada velit leo quis pede. Duis leo.t nulla pariatur. Excepteur sint occaecat cupida</li>
+							<li>{{__('text.Our Vision Text1')}}</li>
+							<li>{{__('text.Our Vision Text2')}} </li>
+							<li>{{__('text.Our Vision Text3')}}</li>
 
 						</ul>
 					</div> <!-- .col-md-6 content-area ends -->
@@ -80,20 +70,15 @@
 			<div class="container">
 				<div class="row area-content">
 					<div class="col-md-6 content-area">
-						<h3 class="area-title">Our History <span class="dark">03</span></h3>
+						<h3 class="area-title">{{__('text.Our History')}} <span class="dark">03</span></h3>
 						<p>
-							Bire et dolore magna aliqua. Ut enim ad minim veniam,
-							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							{{__('text.Our History Text1')}}
 						</p>
 
 						<p>
-							Nicco laboris nisi ut aliquip ex ea commodo
-							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-							cillum dolore eu fugiat nulla pariint occaecat cupidatat non
-							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                            {{__('text.Our History Text2')}}
+                            <br>
+							{{__('text.Our History Text3')}}
 						</p>
 					</div> <!-- .col-md-6 content-area ends -->
 
