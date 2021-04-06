@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row section-content">
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fa fa-image"></i></div>
+						<div class="icon-block"><i class="fa fa-cog"></i></div>
 						<h3>{{__('text.Web development')}}</h3>
 						<p>
 							Seto amar pashe bose ase saradin sararat ar nishidin proti din ase amar pashe ar tobe keno se ajo amar kase elona keno se amar kasthe dure thake bolon.
@@ -42,7 +42,7 @@
 					</div> <!-- .col-md-4 col-sm-6 ends -->
 
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fab fa-shield"></i></div>
+						<div class="icon-block"><i class="fa fa-image"></i></div>
 						<h3>{{__('text.Graphic Design')}}</h3>
 						<p>
 							Mnaoare kese hai tu bata more manoorate tomader kase omon bosease dekho na tomader kase jabo to chole kivabe jete hbe bolona bondhu.
