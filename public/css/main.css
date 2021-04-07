@@ -2097,7 +2097,7 @@ p {
   font-style: italic;
 }
 .testimonial blockquote:before {
-  content: '"\f10d"';
+  content: '';
   font-family: Open Sans;
   position: absolute;
   top: -36px;
