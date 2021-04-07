@@ -3,13 +3,13 @@
 return [
     'welcome' => 'Welcome to The Game',
     'welcomeText' => 'The Game won\'t solve your problems, rather it will learn you to do it your self.',
-    'welcomeText2'=>'"Don\'t give me a fish learn me how to fish"',
+    'welcomeText2'=>'"Don\'t give me a fish, learn me how to fish"',
     'LifeStyle'=>'Life Style',
     'LifeStyleText' =>'In our academy we provide you with the best life style to help you reach your.',
     'Large Supporting Community'=>'Large Supporting Community',
     'Large Supporting Community Text'=>'With us you will never feel alone throw your journey, our community with thousands of participants like you, is very active and always ready to help.',
     'Learn a Skill'=>'Learn a Skill',
-    'Learn a Skill Text'=>'At the academy you will find a clear path to the job market by various of professions, that we guide throw from zero knowledge.',
+    'Learn a Skill Text'=>'At the academy you will find a clear path to the job market in various of professions, that we guide throw from zero knowledge.',
     'How WE WORK'=>'How WE WORK',
     'We self improve'=>'We self improve ',
     'We self improve Text'=>'Throw a well designed course touches your reality, we guide to the first step towards a real change in your self, that you feel from the first days of the program.',
@@ -29,8 +29,6 @@ return [
     'Our Vision Text3'=>'Our academy helps them to solve the core cause of their problems with an entirely free rehabilitation program that prove its functionality throw the past 2 year of our lunch.',
     'Our History'=>'Our History',
     'Our History Text1'=>'established at the end of 2019, and since we have accomplished until now 7 cycles of our program with an estimation of 50,000 participant that benefit and have a kick start in the life or career',
-    'Our History Text2'=>'Accomplishment:',
-    'Our History Text3'=>'After a research took our team more than 6 month we have build a curriculum how to reach from 0 to 1 in the financial freedom',
     'What we do'=>'What we do',
     'What we do Text'=>'We offer an entirely free of charge programs that takes you from 0 knowledge in a particular field to job market in shorter than 6 months.',
     'Web development'=>'Web Development',
@@ -39,6 +37,15 @@ return [
     'Graphic Design'=>'Graphic Design',
     'Post Production'=>'Post Production',
     'Marketing'=>'Marketing',
+
+
+    'Contact Us'=>'Contact Us',
+    'Your message here'=>'Your message here',
+    'Submit'=>'Submit',
+    'Your name'=>'Your name',
+    'Your email'=>'Your email',
+
+
 
 
 ];

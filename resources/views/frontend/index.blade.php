@@ -107,9 +107,6 @@
 
 					<div class="col-md-6 content-area">
 						<h3 class="area-title">{{__('text.How WE WORK')}} <span class="light">02</span></h3>
-						<p>
-							Lenosed upers piciatis unde omnis iste natus error sit voluptatem accusa ntieum  ketumod oloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritat iuase architecto beatae vitae dicta sunt explicabo boseto deisei tomar amar kotha.
-						</p>
 						<ul class="process clearfix">
 							<li class="clearfix">
 								<div class="icon-block">1</div>

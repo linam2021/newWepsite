@@ -29,8 +29,6 @@ return [
     'Our Vision Text3'=>'Our academy helps them to solve the core cause of their problems with an entirely free rehabilitation program that prove its functionality throw the past 2 year of our lunch.',
     'Our History'=>'Our History',
     'Our History Text1'=>'established at the end of 2019, and since we have accomplished until now 7 cycles of our program with an estimation of 50,000 participant that benefit and have a kick start in the life or career',
-    'Our History Text2'=>'Accomplishment:',
-    'Our History Text3'=>'After a research took our team more than 6 month we have build a curriculum how to reach from 0 to 1 in the financial freedom',
     'What we do'=>'What we do',
     'What we do Text'=>'We offer an entirely free of charge programs that takes you from 0 knowledge in a particular field to job market in shorter than 6 months.',
     'Web development'=>'Web Development',
@@ -39,4 +37,14 @@ return [
     'Graphic Design'=>'Graphic Design',
     'Post Production'=>'Post Production',
     'Marketing'=>'Marketing',
+
+
+    'Contact Us'=>'اتصل بنا',
+
+    'Your message here'=>'رسالتك هنا',
+    'Submit'=>'ارسل',
+    'Your name'=>'اسمك',
+    'Your email'=>'بريدك الالكتروني',
+
+
 ];

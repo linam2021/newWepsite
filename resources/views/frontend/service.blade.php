@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row section-content">
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fa fa-cog"></i></div>
+						<div class="icon-block"><i class="fa fa-cogs"></i></div>
 						<h3>{{__('text.Web development')}}</h3>
 						<p>
 							Seto amar pashe bose ase saradin sararat ar nishidin proti din ase amar pashe ar tobe keno se ajo amar kase elona keno se amar kasthe dure thake bolon.
@@ -26,7 +26,7 @@
 					</div> <!-- .col-md-4 col-sm-6 ends -->
 
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fa fa-cogs"></i></div>
+						<div class="icon-block"><i class="fa fa-laptop-code"></i></div>
 						<h3>{{__('text.App Development')}}</h3>
 						<p>
 							Ohose keno bosena tomader kotha eta golpo holeo parto pata lukie tobe portam ebng evabei amader sob kisu nai hote chae kivabe seto chole geleo.
@@ -34,7 +34,7 @@
 					</div> <!-- .col-md-4 col-sm-6 ends -->
 
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fab fa-android"></i></div>
+						<div class="icon-block"><i class="fa fa-gamepad"></i></div>
 						<h3>{{__('text.Game Development')}}</h3>
 						<p>
 							Akashei tiume meghe dhaka shaon dhara jore jedin pas tumi sedin more pore. Ekhoni ami seieoe dinere opekshay bose asise pothe chee tomar pothe.
@@ -50,7 +50,7 @@
 					</div> <!-- .col-md-4 col-sm-6 ends -->
 
 					<div class="col-md-4 col-sm-6">
-						<div class="icon-block"><i class="fa fa-cloud"></i></div>
+						<div class="icon-block"><i class="fa fa-video"></i></div>
 						<h3>{{__('text.Post Production')}}</h3>
 						<p>
 							Takale tumi ami hotath onno deshe chole ase mon hariye bolse asi kivabe to janina make niye tomar majhe kiemn chle je tumi ta bolona ar koto kivabe.

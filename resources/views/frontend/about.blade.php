@@ -17,9 +17,6 @@
 						<p>
 							{{__('text.Who we are Text')}}
 						</p>
-
-						<p>
-							{{__('text.Who we are Text')}}						</p>
 					</div> <!-- .col-md-6 content-area ends -->
 
 					<div class="col-md-6 image-area">
@@ -73,12 +70,6 @@
 						<h3 class="area-title">{{__('text.Our History')}} <span class="dark">03</span></h3>
 						<p>
 							{{__('text.Our History Text1')}}
-						</p>
-
-						<p>
-                            {{__('text.Our History Text2')}}
-                            <br>
-							{{__('text.Our History Text3')}}
 						</p>
 					</div> <!-- .col-md-6 content-area ends -->
 

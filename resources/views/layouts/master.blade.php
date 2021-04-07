@@ -20,7 +20,7 @@
 	<link rel="icon" href="{{asset('assets/img/gameIcon.jpg')}}" type="image/x-icon">
 
 	<!-- fonts -->
-	<link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet' type='text/css'>
 
 	<!-- Stylesheet -->
 
