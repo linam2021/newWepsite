@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\FrontendController;
+use App\Http\Controllers\MailController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
 
@@ -17,14 +18,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     Route::get('/contact', [FrontendController::class,'contact'] )->name('contact');
     Route::get('/about', [FrontendController::class,'about'] )->name('about');
     Route::get('/service', [FrontendController::class,'service'] )->name('service');
-    Route::get('/ser', [FrontendController::class,'ser'] )->name('ser');
+    Route::get('/sendEmail',[MailController::class,'sendEmail'])->name('sendEmail');
 });
 
 
-//Route::get('/', [FrontendController::class,'index'] )->name('index');
-
-//Route::get('/contact', [FrontendController::class,'contact'] )->name('contact');
-
-//Route::get('/about', [FrontendController::class,'about'] )->name('about');
-
-//Route::get('/service', [FrontendController::class,'service'] )->name('service');

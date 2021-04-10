@@ -46,7 +46,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 copyright-info">
-                    <p> 2021 <a href="#">TG Developers</a></p>
+                    <p>2021 <a href="#">TG Developers</a></p>
                 </div> <!-- .col-sm-6 ends -->
             </div>
         </div>

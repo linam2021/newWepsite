@@ -15,14 +15,32 @@
 						<div class="form-message">
 							<p></p>
 						</div>
-
-						<form class="" id="redone-contact" method="POST" action="php/form-handler.php">
+						<form class="" id="redone-contact"  action="{{route('sendEmail')}}" method="GET">
+                            @csrf
+                            @if ($message =Session::get('failed'))
+                            <div class="row">
+                                <div class="col-md-12">
+                                <div class="alert alert-danger" role="alert">
+                                    {{$message}}
+                                </div>
+                                </div>
+                            </div>
+                            @endif
+                            @if ($message =Session::get('success'))
+                            <div class="row">
+                                <div class="col-md-12">
+                                <div class="alert alert-success" role="alert">
+                                    {{$message}}
+                                </div>
+                                </div>
+                            </div>
+                            @endif
 							<div class="row">
                                 @if (app()->getlocale()=='ar')
                                      <div class="col-md-8">
 								    	<label class="sr-only" for="message">Message:</label>
 									    <textarea class="form-control" id="message" name="message" placeholder="{{__('text.Your message here')}}"></textarea>
-									    <button type="submit" class="btn btn-main pull-left" name="submit">{{__('text.Submit')}}</button>
+									    <button type="submit" class="btn btn-main pull-left" >{{__('text.Submit')}}</button>
 								    </div> <!-- .col-md-8 ends -->
                                 @endif
 								<div class="col-md-4">
@@ -39,8 +57,8 @@
                                 @if (app()->getlocale()=='en')
 								    <div class="col-md-8">
 									    <label class="sr-only" for="message">Message:</label>
-								    	<textarea class="form-control" id="message" name="message" placeholder="Your message here"></textarea>
-									    <button type="submit" class="btn btn-main pull-right" name="submit">Submit</button>
+								    	<textarea class="form-control" id="message" name="message" placeholder="{{__('text.Your message here')}}"></textarea>
+									    <button type="submit" class="btn btn-main pull-right">{{__('text.Submit')}}</button>
 								    </div> <!-- .col-md-8 ends -->
                                 @endif
 							</div> <!-- .row ends -->

@@ -18,18 +18,18 @@
 			        <div class="active item">
 			        	<img class="carousel-image" src="{{asset('assets/img/Banner.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated bounceInLeft">The Game</small> <strong data-animation="animated bounceInRight">Lets change the world</strong></h1>
+			        		<h1><small data-animation="animated bounceInLeft">{{__('text.The Game')}}</small> <strong data-animation="animated bounceInRight">{{__('text.Let\'s Play it Right')}}</strong></h1>
 			        		<p class="lead" data-animation="animated bounceInDown">
-			        			The game is your best &amp; smart choice to make your website awesome to take your buesiness to the next level
+			        			{{__('text.The Game is the best way')}}
 			        		</p>
 			        	</div> <!-- .carousel-content ends -->
 
 			        </div> <!-- .item ends -->
 
 			        <div class="item">
-			        	<img class="carousel-image" src="{{asset('assets/img/thegame.jpg')}}" alt="slider image one">
+			        	<img class="carousel-image" src="{{asset('assets/img/OUR-SKILLS.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated fadeInDownBig">Love The Game</small> <strong data-animation="animated fadeInLeftBig">Lets change the world</strong></h1>
+			        		<h1><small data-animation="animated fadeInDownBig">The Game</small> <strong data-animation="animated fadeInLeftBig">Lets change the world</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
 			        			The game is your best smart choice to change the world
 			        		</p>
