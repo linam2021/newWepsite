@@ -29,7 +29,7 @@
 			        <div class="item">
 			        	<img class="carousel-image" src="{{asset('assets/img/OUR-SKILLS.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated fadeInDownBig">The Game</small> <strong data-animation="animated fadeInLeftBig">Lets change the world</strong></h1>
+			        		<h1><small data-animation="animated fadeInDownBig">The Game</small> <strong data-animation="animated fadeInLeftBig">Let\'s Change the World</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
 			        			The game is your best smart choice to change the world
 			        		</p>
