@@ -11,7 +11,6 @@
 				<h2 class="block-title">{{__('text.Contact Us')}}</h2>
 				<div class="row section-content">
 					<div class="col-md-12 form-block">
-
 						<div class="form-message">
 							<p></p>
 						</div>
@@ -21,7 +20,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                 <div class="alert alert-danger" role="alert">
-                                    {{$message}}
+                                    {{__('text.You must fill all fields')}}
                                 </div>
                                 </div>
                             </div>
@@ -30,7 +29,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                 <div class="alert alert-success" role="alert">
-                                    {{$message}}
+                                    {{__('text.Message is sent successfully')}}
                                 </div>
                                 </div>
                             </div>

@@ -54,4 +54,6 @@ return [
     'Submit'=>'Submit',
     'Your name'=>'Your name',
     'Your email'=>'Your email',
+    'Message is sent successfully'=>'Your message is sent successfully',
+    'You must fill all fields'=>'You must fill all fields',
 ];

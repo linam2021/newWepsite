@@ -53,4 +53,6 @@ return [
     'Submit'=>'ارسل',
     'Your name'=>'اسمك',
     'Your email'=>'بريدك الالكتروني',
+    'Message is sent successfully'=>'تم إرسال رسالتك بنجاح',
+    'You must fill all fields'=>'يجب عليك ملء جميع الحقول',
 ];
