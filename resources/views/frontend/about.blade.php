@@ -28,14 +28,12 @@
 
 		<!-- OUR VISION  -->
 		<section class="our-vision section-block">
-
 			<div class="container">
 				<div class="row section-content">
-                    @if (app()->getlocale()=='en')
-					    <div class="col-md-6 image-area">
-				 			<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
-				    	</div> <!-- .col-md-6 image-area ends -->
-                    @endif
+					<div class="col-md-6 image-area">
+				 		<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
+				    </div> <!-- .col-md-6 image-area ends -->
+
 					<div class="col-md-6 content-area">
 						<h3 class="area-title">{{__('text.Our Vision')}} <span class="light">02</span></h3>
 						<p>
@@ -46,16 +44,8 @@
 							<li>{{__('text.Our Vision Text1')}}</li>
 							<li>{{__('text.Our Vision Text2')}} </li>
 							<li>{{__('text.Our Vision Text3')}}</li>
-
 						</ul>
 					</div> <!-- .col-md-6 content-area ends -->
-                    @if (app()->getlocale()=='ar')
-					    <div class="col-md-6 image-area">
-							<img class="img-responsive" src="{{asset('assets/img/Our-Vision.jpg')}}" alt="our vision image">
-					    </div> <!-- .col-md-6 image-area ends -->
-                    @endif
-
-
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->
 		</section> <!-- .our-vision area-block ends -->

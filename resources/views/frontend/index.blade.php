@@ -31,7 +31,7 @@
 			        	<div class="carousel-content">
 			        		<h1><small data-animation="animated fadeInDownBig">The Game</small> <strong data-animation="animated fadeInLeftBig">Let's Change the World</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
-			        			The game is your best smart choice to change the world
+			        			The game is your best smart choice to change your world
 			        		</p>
 			        	</div> <!-- .carousel-content ends -->
 
@@ -105,7 +105,7 @@
 			<div class="container-fluid">
 				<div class="row section-content">
 
-					<div class="col-md-6 content-area">
+					<div class="col-md-8 content-area">
 						<h3 class="area-title">{{__('text.How WE WORK')}} <span class="light">02</span></h3>
 						<ul class="process clearfix">
 							<li class="clearfix">
@@ -120,21 +120,21 @@
 							<li class="clearfix">
 								<div class="icon-block">2</div>
 								<div class="content-block">
-									<h4>{{__('text.We challenge')}}</h4>
-									<p>
-										{{__('text.We challenge Text')}}
-									</p>
-								</div><!-- .content-block ends -->
-							</li> <!-- .clearfix ends -->
-							<li class="clearfix">
-								<div class="icon-block">3</div>
-								<div class="content-block">
 									<h4>{{__('text.We learn')}}</h4>
 									<p>
 										{{__('text.We learn Text')}}
 									</p>
 								</div><!-- .content-block ends -->
 							</li><!-- .clearfix ends -->
+                            <li class="clearfix">
+								<div class="icon-block">3</div>
+								<div class="content-block">
+									<h4>{{__('text.We challenge')}}</h4>
+									<p>
+										{{__('text.We challenge Text')}}
+									</p>
+								</div><!-- .content-block ends -->
+							</li> <!-- .clearfix ends -->
 							<li class="clearfix">
 								<div class="icon-block">4</div>
 								<div class="content-block">
@@ -146,11 +146,11 @@
 							</li><!-- .clearfix ends -->
 						</ul> <!-- .process ends -->
 
-					</div> <!-- .col-md-6 content-area ends -->
+					</div> <!-- .col-md-8 content-area ends -->
 
-					<div class="col-md-6 image-area">
+					<div class="col-md-4 image-area">
 							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="How we work image">
-					</div> <!-- .col-md-6 image-area ends -->
+					</div> <!-- .col-md-4 image-area ends -->
 
 				</div> <!-- .row section-content ends -->
 			</div> <!-- .container-fluid ends -->

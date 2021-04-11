@@ -26,7 +26,7 @@
             <div class="col-lg-8 col-md-5 col-sm-6 widget-area footer-about">
                 <img class="footer-logo" src="{{asset('assets/img/gameLogoWhite.png')}}" alt="The game logo white">
                 <p>
-                    Tomader je kono proyojone amader sathe jog ajog korte bul korona. sob somoy amra toma der pashe achi. tomader sathe achi.
+                    {{__('text.footer text')}}
                 </p>
 
                 <ul class="list-with-icon">
