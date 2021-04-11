@@ -4,6 +4,8 @@ return [
     'The Game'=>'اللعبة',
     'Let\'s Play it Right'=>'العبها صح',
     'The Game is the best way'=>'اللعبة هي الطريقة الأفضل للوصول إلى أحلامك',
+    'Make Your Dreams Come True'=>'حقق أحلامك',
+    'The game is your best choice to change your world'=>'اللعبة هي خيارك الأفضل لتغيير عالمك',
 
     'welcome' => 'أهلا في اللعبة',
     'welcomeText' => 'اللعبة لن تحل مشاكلك، ولكن ستعلمك كيف تحلها بنفسك.',

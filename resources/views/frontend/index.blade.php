@@ -29,9 +29,9 @@
 			        <div class="item">
 			        	<img class="carousel-image" src="{{asset('assets/img/OUR-SKILLS.jpg')}}" alt="slider image one">
 			        	<div class="carousel-content">
-			        		<h1><small data-animation="animated fadeInDownBig">The Game</small> <strong data-animation="animated fadeInLeftBig">Let's Change the World</strong></h1>
+			        		<h1><small data-animation="animated fadeInDownBig">{{__('text.The Game')}}</small> <strong data-animation="animated fadeInLeftBig">{{__('text.Make Your Dreams Come True')}}</strong></h1>
 			        		<p class="lead" data-animation="animated fadeInRightBig">
-			        			The game is your best smart choice to change your world
+			        			{{__('text.The game is your best choice to change your world')}}
 			        		</p>
 			        	</div> <!-- .carousel-content ends -->
 
@@ -105,7 +105,7 @@
 			<div class="container-fluid">
 				<div class="row section-content">
 
-					<div class="col-md-8 content-area">
+					<div class="col-md-6 content-area">
 						<h3 class="area-title">{{__('text.How WE WORK')}} <span class="light">02</span></h3>
 						<ul class="process clearfix">
 							<li class="clearfix">
@@ -148,7 +148,7 @@
 
 					</div> <!-- .col-md-8 content-area ends -->
 
-					<div class="col-md-4 image-area">
+					<div class="col-md-6 image-area">
 							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="How we work image">
 					</div> <!-- .col-md-4 image-area ends -->
 

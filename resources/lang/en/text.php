@@ -4,6 +4,8 @@ return [
     'The Game'=>'The Game',
     'Let\'s Play it Right'=>'Let\'s Play it Right',
     'The Game is the best way'=>'The Game is the best way in having a path to your dreams',
+    'Make Your Dreams Come True'=>'Make Your Dreams Come True',
+    'The game is your best choice to change your world'=>'The Game is your best choice to change your world',
 
     'welcome' => 'Welcome to The Game',
     'welcomeText' => 'The game won\'t solve your problems; rather, it will teach you to do it yourself.',
