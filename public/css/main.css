@@ -148,6 +148,7 @@ p {
   padding-top: 120px;
   margin-bottom: 48px;
   padding-bottom: 72px;
+  text-align: justify;
 }
 /**
  * COMMON STYLES
@@ -158,7 +159,7 @@ p {
 }
 .section-title h2 {
   font-family: Open Sans;
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 900;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -169,7 +170,7 @@ p {
 }
 @media (max-width: 767px) {
   .section-title h2 {
-    font-size: 21px;
+    font-size: 23px;
   }
 }
 @media (max-width: 480px) {
@@ -178,7 +179,7 @@ p {
   }
 }
 .section-title h2 span {
-  font-size: 104px;
+  font-size: 106px;
   font-family: Open Sans;
   position: absolute;
   top: 50%;
@@ -236,7 +237,7 @@ p {
 }
 @media (max-width: 767px) {
   .section-title .lead {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (max-width: 580px) {
@@ -245,7 +246,7 @@ p {
   }
 }
 .area-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -254,7 +255,7 @@ p {
   margin-bottom: 30px;
 }
 .area-title span {
-  font-size: 104px;
+  font-size: 106px;
   position: absolute;
   left: 0;
   bottom: -17px;
@@ -282,7 +283,7 @@ p {
 .block-title {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   letter-spacing: 1px;
 }
@@ -303,7 +304,7 @@ p {
   margin-bottom: 48px;
 }
 .lead {
-  font-size: 20px;
+  font-size: 22px;
   font-family: Open Sans;
 }
 .btn {
@@ -367,13 +368,13 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 3px;
-  font-size: 42px;
+  font-size: 44px;
   margin-bottom: 15px;
   margin-top: 0;
 }
 @media (max-width: 767px) {
   .page-title-banner h2 {
-    font-size: 30px;
+    font-size: 32px;
     line-height: 1.6;
   }
 }
@@ -383,7 +384,7 @@ p {
 }
 .page-title-banner .breadcrumbs a {
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -478,7 +479,7 @@ p {
   float: right;
   padding: 5px 0;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
 }
 /* ACCORDION */
 .redone-accordion {
@@ -496,7 +497,7 @@ p {
   padding: 0;
 }
 .redone-accordion .panel-title {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -542,11 +543,11 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   font-family: Open Sans;
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (max-width: 767px) {
   .navigation-block a {
-    font-size: 13px;
+    font-size: 16px;
   }
 }
 .navigation-block a i {
@@ -570,7 +571,7 @@ p {
   transition: .3s;
 }
 .paging-style1 li a {
-  font-size: 16px;
+  font-size: 18px;
   padding: 6px;
   border-bottom: 3px solid #222222;
   margin: 0 5px;
@@ -581,7 +582,7 @@ p {
 }
 .paging-style1 li a.left-arrow,
 .paging-style1 li a.right-arrow {
-  font-size: 14px;
+  font-size: 16px;
 }
 .paging-style1 li a.left-arrow {
   margin-right: 1em;
@@ -717,7 +718,7 @@ p {
   margin-bottom: 41px;
   text-transform: uppercase;
   letter-spacing: 0px;
-  font-size: 13px;
+  font-size: 14px;
   padding: 0px 24px;
   line-height: 14px;
   color: #222222;
@@ -894,7 +895,7 @@ p {
   background-color: #222222;
   border-radius: 0px;
   border-width: 0px;
-  font-size: 24px;
+  font-size: 26px;
   padding: 30px 0px;
 }
 .main-header .redone-navbar .redone-search .form-control::-webkit-input-placeholder {
@@ -927,7 +928,7 @@ p {
 .main-header .redone-navbar .redone-search .input-group-btn button {
   background: transparent;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 20px;
   padding: 0;
 }
 .main-header .redone-navbar .redone-search .input-group-btn button:active,
@@ -1087,12 +1088,12 @@ p {
   display: inline-block;
   font-family: Open Sans;
   font-weight: 900;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 3px;
 }
 @media (max-width: 767px) {
   .main-slider .carousel-content h1 small {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .main-slider .carousel-content h1 small:after {
@@ -1106,17 +1107,17 @@ p {
 .main-slider .carousel-content h1 strong {
   display: block;
   margin-top: 18px;
-  font-size: 48px;
+  font-size: 50px;
   margin-bottom: 24px;
 }
 @media (max-width: 1199px) {
   .main-slider .carousel-content h1 strong {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 @media (max-width: 767px) {
   .main-slider .carousel-content h1 strong {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 .main-slider .carousel-content .lead {
@@ -1126,7 +1127,7 @@ p {
 }
 @media (max-width: 767px) {
   .main-slider .carousel-content .lead {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 .main-slider .animated-slider h1 small {
@@ -1163,14 +1164,14 @@ p {
 .video-bg .hero-content h2 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 48px;
+  font-size: 50px;
   color: #ffffff;
   line-height: 1.5;
   margin-top: 0;
 }
 @media (max-width: 767px) {
   .video-bg .hero-content h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 .video-bg .hero-content h3 {
@@ -1196,7 +1197,7 @@ p {
 .image-bg .hero-content h2 {
   color: #ffffff;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 50px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 42px;
@@ -1206,7 +1207,7 @@ p {
   margin-bottom: 30px;
   margin-top: 0;
   color: #ffffff;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   letter-spacing: 3px;
 }
@@ -1256,7 +1257,7 @@ p {
 }
 .gradient-bg .hero-content .content-block .content-wrapper h2 {
   color: #ffffff;
-  font-size: 48px;
+  font-size: 50px;
   text-transform: uppercase;
   line-height: 1.3;
   margin-top: 0;
@@ -1265,22 +1266,22 @@ p {
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .gradient-bg .hero-content .content-block .content-wrapper h2 {
-    font-size: 36px;
+    font-size: 38px;
   }
 }
 @media (max-width: 767px) {
   .gradient-bg .hero-content .content-block .content-wrapper h2 {
     text-align: center;
-    font-size: 42px;
+    font-size: 44px;
   }
 }
 .gradient-bg .hero-content .content-block .content-wrapper h2 strong {
   display: block;
-  font-size: 48px;
+  font-size: 50px;
 }
 .gradient-bg .hero-content .content-block .content-wrapper h2 strong span {
   display: block;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 6px;
 }
 .gradient-bg .hero-content .content-block .content-wrapper h2 strong:after {
@@ -1302,7 +1303,7 @@ p {
 }
 @media (min-width: 767px) and (max-width: 991px) {
   .gradient-bg .hero-content .content-block .content-wrapper h2 span {
-    font-size: 42px;
+    font-size: 44px;
   }
 }
 /* Parallax Bg */
@@ -1331,7 +1332,7 @@ p {
   width: 80%;
 }
 .parallax-bg .hero-content .content-wrapper h2 {
-  font-size: 48px;
+  font-size: 50px;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
@@ -1342,7 +1343,7 @@ p {
   display: block;
   color: #ffffff;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 18px;
 }
 .parallax-bg .hero-content .content-wrapper button {
@@ -1355,7 +1356,7 @@ p {
   width: 30px;
   margin-right: 24px;
   float: left;
-  font-size: 30px;
+  font-size: 32px;
   color: #222222;
   padding-bottom: 12px;
   border-bottom: 3px solid #222222;
@@ -1367,12 +1368,13 @@ p {
 .featured .section-content .content-block h3 {
   margin-top: 12px;
   margin-bottom: 24px;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .featured .section-content .content-block p {
   margin-bottom: 0;
+  text-align: justify;
 }
 /**
  * ABOUT US
@@ -1474,14 +1476,14 @@ p {
   }
 }
 .service .section-content .icon-block {
-  font-size: 36px;
+  font-size: 38px;
   color: #222222;
   margin-bottom: 30px;
 }
 .service .section-content h3 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1px;
   margin-top: 0;
   margin-bottom: 24px;
@@ -1548,7 +1550,7 @@ p {
   background: #222222;
   color: #ffffff;
   float: left;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   line-height: 48px;
 }
@@ -1559,7 +1561,7 @@ p {
 .why-choose-us .section-content .content-area .reasons .content-block h4 {
   font-weight: bold;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -1726,7 +1728,7 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-bottom: 18px;
 }
@@ -1738,7 +1740,7 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .portfolio .bottom-content-block {
   margin-top: 72px;
@@ -1763,7 +1765,7 @@ p {
   height: 72px;
   line-height: 72px;
   text-align: center;
-  font-size: 24px;
+  font-size: 26px;
   background: #222222;
   color: #ffffff;
 }
@@ -1773,7 +1775,7 @@ p {
 }
 .features .section-content .feature-list .content-block h4 {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   font-weight: bold;
   margin-bottom: 18px;
@@ -1977,7 +1979,7 @@ p {
   left: 0;
 }
 .team-members .section-content .member-info h4 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
   color: #ffffff;
@@ -1990,7 +1992,7 @@ p {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffffff;
-  font-size: 13px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -2046,7 +2048,7 @@ p {
   background: #222222;
   color: #ffffff;
   float: left;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   line-height: 48px;
 }
@@ -2057,13 +2059,14 @@ p {
 .how-we-work .section-content .content-area .process .content-block h4 {
   font-weight: bold;
   margin-top: 0;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .how-we-work .section-content .content-area .process .content-block p {
   margin-bottom: 0;
+  text-align: justify;
 }
 .how-we-work .section-content .image-area {
   background-size: cover;
@@ -2093,7 +2096,7 @@ p {
   }
 }
 .testimonial blockquote p {
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
 }
 .testimonial blockquote:before {
@@ -2111,7 +2114,7 @@ p {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    font-size: 48px;
+    font-size: 50px;
   }
 }
 @media (min-width: 768px) {
@@ -2128,7 +2131,7 @@ p {
 }
 .testimonial .testimonial-author h4 {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -2190,7 +2193,7 @@ p {
   }
 }
 .fun-facts .content-wrapper h3 {
-  font-size: 30px;
+  font-size: 32px;
   margin-top: 0;
   text-transform: uppercase;
   color: #ffffff;
@@ -2323,7 +2326,7 @@ p {
 }
 .our-blog .post-wrapper .content-block .top-meta li {
   display: inline-block;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -2358,7 +2361,7 @@ p {
   float: right;
 }
 .our-blog .post-wrapper .content-block .post-content h3 {
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 0;
@@ -2402,7 +2405,7 @@ p {
   margin-bottom: 48px;
 }
 .email-subscription h2 span {
-  font-size: 24px;
+  font-size: 26px;
   display: block;
   color: #ffffff;
   margin-top: 12px;
@@ -2413,7 +2416,7 @@ p {
   box-shadow: none;
   border-radius: 0;
   height: 48px;
-  font-size: 18px;
+  font-size: 20px;
   font-style: italic;
 }
 @media (max-width: 767px) {
@@ -2432,7 +2435,7 @@ p {
   letter-spacing: 3px;
   font-weight: bold;
   border-radius: 0;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: -4px;
 }
 @media (max-width: 767px) {
@@ -2516,7 +2519,7 @@ p {
   letter-spacing: 1px;
   margin-top: 18px;
   margin-bottom: 51px;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 .main-footer .widget-area.footer-about .footer-logo {
@@ -2626,6 +2629,7 @@ p {
  */
 .who-we-are .content-area p:last-of-type {
   margin-bottom: 0;
+  text-align: justify;
 }
 @media (min-width: 1200px) {
   .who-we-are .image-area {
@@ -2646,6 +2650,7 @@ p {
 .our-vision .content-area {
   padding-left: 48px;
   margin-top: 36px;
+  text-align: justify;
 }
 @media (max-width: 991px) {
   .our-vision .content-area {
@@ -2776,12 +2781,12 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   margin: 0;
-  font-size: 42px;
+  font-size: 44px;
   letter-spacing: 2px;
 }
 @media (max-width: 1199px) and (min-width: 992px) {
   .cta-banner h2 {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 @media (max-width: 991px) {
@@ -2813,12 +2818,12 @@ p {
   text-transform: uppercase;
   color: #ffffff;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 32px;
   letter-spacing: 2px;
 }
 @media (max-width: 1199px) {
   .cta-banner .banner-text h3 {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 @media (max-width: 991px) {
@@ -2834,11 +2839,11 @@ p {
 .cta-banner .banner-text p {
   color: #ffffff;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
 }
 @media (max-width: 1199px) {
   .cta-banner .banner-text p {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (min-width: 992px) {
@@ -2937,7 +2942,7 @@ p {
 .price-table .price-box .package-name h3 {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   margin-top: 0;
   margin-bottom: 12px;
 }
@@ -2953,12 +2958,12 @@ p {
   background: #222222;
   color: #ffffff;
   padding: 6px;
-  font-size: 13px;
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 .price-table .price-box .price-tag h4 {
-  font-size: 36px;
+  font-size: 38px;
   font-weight: 900;
   font-family: Open Sans;
   margin-top: 0;
@@ -2969,7 +2974,7 @@ p {
   color: #222222;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .price-table .price-box .package-features {
   position: relative;
@@ -3040,7 +3045,7 @@ p {
 .post .post-title {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   margin-top: 6px;
   margin-bottom: 24px;
   letter-spacing: 1px;
@@ -3048,7 +3053,7 @@ p {
 }
 @media (max-width: 767px) {
   .post .post-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .post .post-excerpt {
@@ -3075,12 +3080,12 @@ p {
   top: 0;
   left: 12px;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 50px;
   z-index: -1;
 }
 @media (max-width: 767px) {
   .post blockquote {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 .post .read-more-link {
@@ -3106,7 +3111,7 @@ p {
 .post-footer h4 {
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 .post-footer .footer-meta li {
   display: inline-block;
@@ -3179,7 +3184,7 @@ p {
 .post-author .author-details h4 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 18px;
 }
@@ -3188,7 +3193,7 @@ p {
   font-weight: normal;
   font-family: Open Sans;
   letter-spacing: 2px;
-  font-size: 13px;
+  font-size: 16px;
 }
 .post-author .author-details h5 span {
   display: inline-block;
@@ -3253,11 +3258,11 @@ p {
 .comments-section .block-title {
   margin-top: 24px;
   margin-bottom: 36px;
-  font-size: 24px;
+  font-size: 26px;
 }
 @media (max-width: 767px) {
   .comments-section .block-title {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.6;
   }
 }
@@ -3315,7 +3320,7 @@ p {
   display: inline-block;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 .comment .comment-content-header .comment-meta {
   display: inline-block;
@@ -3559,7 +3564,7 @@ p {
   margin-top: 0;
   margin-bottom: 24px;
   padding: 12px 30px;
-  font-size: 16px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
@@ -3591,7 +3596,7 @@ p {
 }
 .sidebar-list h4 {
   margin: 0 0 12px;
-  font-size: 14px;
+  font-size: 16px;
 }
 .sidebar-list p:last-of-type {
   margin-bottom: 0;
@@ -3636,7 +3641,7 @@ p {
   margin-top: 0;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 36px;
 }
 .portfolio-details .block-title {
@@ -3654,13 +3659,13 @@ p {
 }
 .portfolio-details .portfolio-desc .portfolio-meta h4 {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
 }
 .portfolio-details .desc-block .share-block {
   margin-top: 48px;
 }
 .portfolio-details .desc-block .share-block h4 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 18px;
 }
@@ -3711,7 +3716,7 @@ p {
  * CONTACT PAGE
  */
 .contact-options .icon-block {
-  font-size: 21px;
+  font-size: 23px;
   width: 4em;
   height: 4em;
   margin: 0 auto 30px;
@@ -3728,11 +3733,11 @@ p {
 .contact-options a {
   display: block;
   color: #222222;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
 }
 .contact-options address {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.8;
 }
 .form-map {

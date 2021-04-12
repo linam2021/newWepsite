@@ -105,7 +105,7 @@
 			<div class="container-fluid">
 				<div class="row section-content">
 
-					<div class="col-md-6 content-area">
+					<div class="col-md-8 content-area">
 						<h3 class="area-title">{{__('text.How WE WORK')}} <span class="light">02</span></h3>
 						<ul class="process clearfix">
 							<li class="clearfix">
@@ -148,8 +148,8 @@
 
 					</div> <!-- .col-md-8 content-area ends -->
 
-					<div class="col-md-6 image-area">
-							<img class="img-responsive" src="{{asset('assets/img/HOW-WE-WORK.jpg')}}" alt="How we work image">
+					<div class="col-md-4 image-area">
+							<img class="img-responsive" src="{{asset('assets/img/123.jpg')}}" alt="How we work image">
 					</div> <!-- .col-md-4 image-area ends -->
 
 				</div> <!-- .row section-content ends -->

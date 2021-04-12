@@ -52,7 +52,7 @@ return [
 
     'Contact Us'=>'اتصل بنا',
     'Your message here'=>'رسالتك هنا',
-    'Submit'=>'ارسل',
+    'Submit'=>'إرسال',
     'Your name'=>'اسمك',
     'Your email'=>'بريدك الالكتروني',
     'Message is sent successfully'=>'تم إرسال رسالتك بنجاح',
