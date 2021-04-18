@@ -6,11 +6,9 @@
 	<meta charset="utf-8" />
 	<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
 
-	<meta name="description" content="The Game Academy Website" />
+	<meta name="description" content="A beautiful bootstrap template for your small business, company, agency or corporate website" />
 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
 	<!-- title tag-->
 	<title>The Game اللعبة</title>
 
