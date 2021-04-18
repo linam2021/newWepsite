@@ -5,7 +5,7 @@ return [
     'Let\'s Play it Right'=>'Let\'s Play it Right',
     'The Game is the best way'=>'The Game is the best way in having a path to your dreams',
 
-    'The Game1'=>'أكاديمية اللعبة',
+    'The Game1'=>'اللعبة أكاديمي',
     'Let\'s Play it Right1'=>'العبها صح',
     'The Game is the best way1'=>'اللعبة هي الطريقة الأفضل للوصول إلى أحلامك',
 
