@@ -1085,7 +1085,7 @@
 }
 .main-slider .carousel-content h1 {
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 0;
 }
 .main-slider .carousel-content h1 small {

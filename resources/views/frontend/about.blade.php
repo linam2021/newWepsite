@@ -39,12 +39,15 @@
 						<p>
 							{{__('text.Our Vision Text')}}
 						</p>
-
-						<ul class="lined-list">
-							<li>{{__('text.Our Vision Text1')}}</li>
-							<li>{{__('text.Our Vision Text2')}} </li>
-							<li>{{__('text.Our Vision Text3')}}</li>
-						</ul>
+                        <p>
+							{{__('text.Our Vision Text1')}}
+						</p>
+                        <p>
+							{{__('text.Our Vision Text2')}}
+						</p>
+                        <p>
+							{{__('text.Our Vision Text3')}}
+						</p>
 					</div> <!-- .col-md-6 content-area ends -->
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->
@@ -69,39 +72,4 @@
 				</div> <!-- .row area-content ends -->
 			</div> <!-- .container ends -->
 		</section> <!-- .our-history area-block ends -->
-
-        <!-- FUN FACTS -->
-		<section class="fun-facts section-block">
-			<div class="container">
-				<div class="row section-content">
-					<div class="col-md-3 col-sm-6">
-						<div class="content-wrapper">
-							<h3 class="clients-number" data-from="0" data-to="222" data-speed="3000">222</h3>
-							<p>Happy Clients</p>
-						</div> <!-- .content-wrapper ends -->
-					</div> <!-- .col-md-3 col-sm-6 ends -->
-
-					<div class="col-md-3 col-sm-6">
-						<div class="content-wrapper">
-							<h3 class="templates-number" data-from="0" data-to="30" data-speed="3000">30</h3>
-							<p>Templates</p>
-						</div> <!-- .content-wrapper ends -->
-					</div> <!-- .col-md-3 col-sm-6 ends -->
-
-					<div class="col-md-3 col-sm-6">
-						<div class="content-wrapper">
-							<h3 class="projects-number" data-from="2000" data-to="8458" data-speed="3000">8458</h3>
-							<p>Projects Completed</p>
-						</div> <!-- .content-wrapper ends -->
-					</div> <!-- .col-md-3 col-sm-6 ends -->
-
-					<div class="col-md-3 col-sm-6">
-						<div class="content-wrapper">
-							<h3 class="awards-number" data-from="0" data-to="932" data-speed="3000">932</h3>
-							<p>Awards Achived</p>
-						</div> <!-- .content-wrapper ends -->
-					</div> <!-- .col-md-3 col-sm-6 ends -->
-				</div> <!-- .row section-content ends -->
-			</div> <!-- .container ends -->
-		</section> <!-- .fun-facts ends -->
 @stop

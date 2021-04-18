@@ -1,11 +1,13 @@
 <?php
 
 return [
-    'The Game'=>'اللعبة',
-    'Let\'s Play it Right'=>'العبها صح',
-    'The Game is the best way'=>'اللعبة هي الطريقة الأفضل للوصول إلى أحلامك',
-    'Make Your Dreams Come True'=>'حقق أحلامك',
-    'The game is your best choice to change your world'=>'اللعبة هي خيارك الأفضل لتغيير عالمك',
+    'The Game'=>'The Game Academy',
+    'Let\'s Play it Right'=>'Let\'s Play it Right',
+    'The Game is the best way'=>'The Game is the best way in having a path to your dreams',
+
+    'The Game1'=>'اللعبة',
+    'Let\'s Play it Right1'=>'العبها صح',
+    'The Game is the best way1'=>'اللعبة هي الطريقة الأفضل للوصول إلى أحلامك',
 
     'welcome' => 'أهلا في اللعبة',
     'welcomeText' => 'اللعبة لن تحل مشاكلك، ولكن ستعلمك كيف تحلها بنفسك.',

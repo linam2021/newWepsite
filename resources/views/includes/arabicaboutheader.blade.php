@@ -44,7 +44,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="{{route('contact')}}">اتصل بنا <b></b></a></li>
                     <li><a href="{{route('service')}}">خدمات <b></b></a></li>
-                    <li class="active"><a href="{{route('about')}}">حول اللعبة <span class="sr-only">(current)</span><b></b></a></li>
+                    <li class="active"><a href="{{route('about')}}"> من نحن <span class="sr-only">(current)</span><b></b></a></li>
                     <li><a href="{{route('index')}}">الصفحة الرئيسية <b></b></a></li>
                     <li class="visible-lg"><a class="animate"><i></i></a></li>
                 </ul> <!-- .nav navbar-nav ends -->
