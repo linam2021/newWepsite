@@ -32,7 +32,7 @@
                 <ul class="list-with-icon">
                     <li>
                         <i class="fas fa-envelope"></i>
-                        <a href="emailto:email@website.com">email@website.com</a>
+                        <a href="emailto:tgame.academy@gmail.com">tgame.academy@gmail.com</a>
                     </li>
                 </ul> <!-- .list-with-icon ends -->
             </div> <!-- .col-md-3 col-sm-6 ends -->
@@ -45,13 +45,11 @@
     <div class="bottom-bar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 copyright-info">
+                <div class="col-sm-2 copyright-info">
                     <p>2021 <a href="#">TG Developers</a></p>
                 </div> <!-- .col-sm-6 ends -->
             </div>
         </div>
     </div> <!-- .bottom-bar ends -->
 </footer> <!-- .main-footer ends -->
-
-
 </div> <!-- .site-wrapper ends -->

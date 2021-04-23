@@ -59,6 +59,7 @@ return [
     'Your email'=>'بريدك الالكتروني',
     'Message is sent successfully'=>'تم إرسال رسالتك بنجاح',
     'You must fill all fields'=>'يجب عليك ملء جميع الحقول',
+    'Germany'=>'ألمانيا - برلين',
 
     'footer text'=>'هدف أكاديميتنا أن نبني لك أساساً يدفعك للأمام ويلتقطك عند السقوط.',
 ];

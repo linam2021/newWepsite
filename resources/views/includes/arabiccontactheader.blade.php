@@ -17,7 +17,7 @@
 
             <div class="col-md-6">
                 <ul class="top-menu">
-                    <li><a href="#"><i class="fas fa-envelope"></i> email@example.com</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> tgame.academy@gmail.com</a></li>
                 </ul>
             </div> <!-- .col-md-6 ends -->
 

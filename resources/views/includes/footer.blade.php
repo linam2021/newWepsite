@@ -15,7 +15,7 @@
                 <ul class="list-with-icon">
                     <li>
                         <i class="fas fa-envelope"></i>
-                        <a href="emailto:email@website.com">email@website.com</a>
+                        <a href="emailto:tgame.academy@gmail.com">tgame.academy@gmail.com</a>
                     </li>
                 </ul> <!-- .list-with-icon ends -->
             </div> <!-- .col-md-3 col-sm-6 ends -->

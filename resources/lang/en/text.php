@@ -60,6 +60,7 @@ return [
     'Your email'=>'Your email',
     'Message is sent successfully'=>'Your message is sent successfully',
     'You must fill all fields'=>'You must fill all fields',
+    'Germany'=>'Germany - Berlin',
 
 
     'footer text'=>'Our academy\'s goal is to build you a foundation, that push you forward and catches you when you fall.',

@@ -5,7 +5,7 @@
         <div class="row">
             <div class="col-md-6">
                 <ul class="top-menu">
-                    <li><a href="#"><i class="fas fa-envelope"></i> email@example.com</a></li>
+                    <li><a href="tgame.academy@gmail.com"><i class="fas fa-envelope"></i> tgame.academy@gmail.com</a></li>
                 </ul>
             </div> <!-- .col-md-6 ends -->
 
@@ -47,7 +47,7 @@
                     <li><a href="{{route('index')}}">Home <b></b></a></li>
                     <li><a href="{{route('about')}}">About <b></b></a></li>
                     <li class="active"><a href="{{route('service')}}">Services <span class="sr-only">(current)</span> <b></b></a></li>
-                    <li><a href="{{route('contact')}}">Contact <b></b></a></li>
+                    <li><a href="{{route('contact')}}">Contact Us<b></b></a></li>
                     <li class="visible-lg"><a class="animate"><i></i></a></li>
                 </ul> <!-- .nav navbar-nav ends -->
 
