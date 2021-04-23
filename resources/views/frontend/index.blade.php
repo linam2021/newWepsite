@@ -79,9 +79,9 @@
 					<div class="col-md-4 clearfix">
 						<div class="icon-block"><i class="fab fa-codepen"></i></div>
 						<div class="content-block">
-							<h3>{{__('text.Large Supporting Community')}}</h3>
+							<h3>{{__('text.Large Community')}}</h3>
 							<p>
-								{{__('text.Large Supporting Community Text')}}
+								{{__('text.Large Community Text')}}
 							</p>
 						</div> <!-- .content-block ends -->
 					</div> <!-- .col-md-4 ends -->

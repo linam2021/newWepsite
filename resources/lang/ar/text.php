@@ -5,7 +5,7 @@ return [
     'Let\'s Play it Right'=>'Let\'s Play it Right',
     'The Game is the best way'=>'The Game is the best way in having a path to your dreams',
 
-    'The Game1'=>' اللعبة أكاديمي',
+    'The Game1'=>'اللعبة أكاديمي',
     'Let\'s Play it Right1'=>'العبها صح',
     'The Game is the best way1'=>'اللعبة هي الطريقة الأفضل للوصول إلى أحلامك',
 
@@ -14,8 +14,8 @@ return [
     'welcomeText2'=>'"لا تعطيني سمكة، علمني كيف أصطاد"',
     'LifeStyle'=>'أسلوب حياة',
     'LifeStyleText' =>'أكاديميتنا تزوّدك بأفضل أسلوب حياة لنساعدك على الوصول لأهدافك وتستمتع أنت في الطريق لتحيا حياة أحلامك.',
-    'Large Supporting Community'=>'مجتمع كبير ومساند',
-    'Large Supporting Community Text'=>'معنا لن تشعر بالوحدة في رحلتك، مجتمعنا من آلاف المنخرطين في الرحلة نشط دوماً ومستعد لتقديم العون.',
+    'Large Community'=>'مجتمع كبير',
+    'Large Community Text'=>'معنا لن تشعر بالوحدة في رحلتك، مجتمعنا من آلاف المنخرطين في الرحلة نشط دوماً ومستعد لتقديم العون.',
     'Learn a Skill'=>'تعلم مهارة',
     'Learn a Skill Text'=>'ستجد في الأكاديمية طريقاً واضحاً إلى سوق العمل عبر مهارات مهنية متعددة إذ نرافقك من دون أي معرفة مسبقة لك بالمجال حتى الاحتراف لتخرج فرداً ذا مهارة عالية.',
     'How WE WORK'=>'كيف نعمل',
